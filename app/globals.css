@@ -403,7 +403,7 @@ html {
   color: var(--color-fd-muted-foreground);
   margin: 0.5rem 0;
 }
-.terms-status button {
+.terms-status a {
   color: var(--color-fd-primary);
   text-decoration: underline;
   cursor: pointer;

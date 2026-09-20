@@ -10,7 +10,7 @@ test("shared filters and Back restore the same result set", async ({
     "lighting-and-color",
   );
   const count = await page.getByRole("status").textContent();
-  await page.getByRole("button", { name: "Clear filters" }).click();
+  await page.getByRole("link", { name: "Clear filters" }).click();
   await expect(page).toHaveURL(/\/terms$/);
   await page.goBack();
   await expect(page.getByLabel("Chapter", { exact: true })).toHaveValue(
@@ -34,7 +34,7 @@ test("typing, invalid chapters and no results behave consistently", async ({
   await expect(page).toHaveURL(/q=zzzxunknown/);
   await expect(page.getByRole("status")).toHaveText("0 terms");
   await expect(page.getByText("No matching terms.")).toBeVisible();
-  await page.getByRole("button", { name: "Clear filters" }).click();
+  await page.getByRole("link", { name: "Clear filters" }).click();
   await expect(page.getByRole("status")).toContainText(
     `${atlas.terms.length} terms`,
   );
@@ -55,5 +55,36 @@ test("initial index and filtering work without JavaScript", async ({
       exact: true,
     }),
   ).toBeVisible();
+  await context.close();
+});
+
+test("a slow earlier filter update cannot erase newer typing", async ({
+  page,
+}) => {
+  await page.goto("/terms");
+  await page.route("**/terms?**", async (route) => {
+    await new Promise((resolve) => setTimeout(resolve, 850));
+    await route.continue();
+  });
+  const input = page.getByLabel("Filter terms");
+  await input.fill("light");
+  await page.waitForTimeout(1000);
+  await input.fill("lighting");
+  await page.waitForTimeout(3000);
+  await expect(input).toHaveValue("lighting");
+  await expect(page).toHaveURL(/q=lighting$/);
+});
+test("clear filters works without JavaScript", async ({ browser, baseURL }) => {
+  const context = await browser.newContext({
+    javaScriptEnabled: false,
+    baseURL,
+  });
+  const page = await context.newPage();
+  await page.goto("/terms?q=zzz");
+  await page.getByText("Clear filters", { exact: true }).click();
+  await expect(page).toHaveURL(/\/terms$/);
+  await expect(page.getByRole("status")).toHaveText(
+    `${atlas.terms.length} terms`,
+  );
   await context.close();
 });

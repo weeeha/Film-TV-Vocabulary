@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import {
   filterTerms,
@@ -20,7 +20,6 @@ export function TermBrowser({
   initialFilters: TermFilters;
 }) {
   const params = useSearchParams();
-  const router = useRouter();
   const filters = params
     ? parseFilters(
         new URLSearchParams(params.toString()),
@@ -29,22 +28,26 @@ export function TermBrowser({
     : initialFilters;
   const [draft, setDraft] = useState(initialFilters.q);
   useEffect(() => setDraft(filters.q), [filters.q]);
+  // Filters are local data; native history integrates with Next search params
+  // without network navigations that can overwrite a newer draft.
   useEffect(() => {
     if (draft.trim() === filters.q) return;
     const timer = setTimeout(
       () =>
-        router.replace(filtersUrl({ q: draft, chapter: filters.chapter }), {
-          scroll: false,
-        }),
+        window.history.replaceState(
+          null,
+          "",
+          filtersUrl({ q: draft, chapter: filters.chapter }),
+        ),
       300,
     );
     return () => clearTimeout(timer);
-  }, [draft, filters.q, filters.chapter, router]);
+  }, [draft, filters.q, filters.chapter]);
   const found = filterTerms(terms, filters);
   const groups = groupTerms(found);
   function clear() {
     setDraft("");
-    router.push("/terms", { scroll: false });
+    window.history.pushState(null, "", "/terms");
   }
   return (
     <>
@@ -54,9 +57,11 @@ export function TermBrowser({
         method="get"
         onSubmit={(e) => {
           e.preventDefault();
-          router.push(filtersUrl({ q: draft, chapter: filters.chapter }), {
-            scroll: false,
-          });
+          window.history.pushState(
+            null,
+            "",
+            filtersUrl({ q: draft, chapter: filters.chapter }),
+          );
         }}
       >
         <label>
@@ -76,9 +81,11 @@ export function TermBrowser({
             name="chapter"
             value={filters.chapter}
             onChange={(e) =>
-              router.push(filtersUrl({ q: draft, chapter: e.target.value }), {
-                scroll: false,
-              })
+              window.history.pushState(
+                null,
+                "",
+                filtersUrl({ q: draft, chapter: e.target.value }),
+              )
             }
           >
             <option value="">All chapters</option>
@@ -100,7 +107,16 @@ export function TermBrowser({
           {found.length} {found.length === 1 ? "term" : "terms"}
         </p>
         {(filters.q || filters.chapter) && (
-          <button onClick={clear}>Clear filters</button>
+          <a
+            href="/terms"
+            onClick={(e) => {
+              if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+              e.preventDefault();
+              clear();
+            }}
+          >
+            Clear filters
+          </a>
         )}
       </div>
       <nav className="letter-nav" aria-label="Jump to letter">

@@ -34,13 +34,16 @@ test("lighting candidates keep images and captions together", async ({
     ),
   ).toBe(true);
 });
-test("guide renders its relationship diagram", async ({ page }) => {
+test("guide renders its relationship diagram", async ({ page }, testInfo) => {
   await page.goto("/guides/how-to-use");
   await expect(
     page
       .getByRole("img", { name: "Atlas relationships diagram" })
       .locator("svg"),
   ).toBeVisible();
+  await page
+    .getByRole("img", { name: "Atlas relationships diagram" })
+    .screenshot({ path: testInfo.outputPath("diagram.png") });
 });
 test("allowlisted downloads parse and private paths stay unavailable", async ({
   request,

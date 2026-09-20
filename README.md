@@ -83,6 +83,10 @@ python3 scripts/build_catalog.py --check
 
 The builder refreshes the alphabetical index, catalog, and coverage report from the same content. The checker verifies entry fields, IDs, local links, generated-file consistency, and the worked example's references. A schema validator can additionally check each decision against `data/decision.schema.json`.
 
+## Website
+
+Read the atlas at [film-tv-atlas.vercel.app](https://film-tv-atlas.vercel.app). See the [release verification](docs/site-verification.md) for tested behavior and publishing status.
+
 ## Website development
 
 Use Node 24. Run `npm ci`, then `npm run dev` for the local reader. Restart after Markdown edits. Before publishing, regenerate editorial outputs with `npm run content:build` and run `npm run content:check`, `npm run test:unit`, `npm run typecheck`, `npm run build`, and `npm run test:e2e`.

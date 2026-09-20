@@ -7,8 +7,8 @@ Date: 2026-09-20. Application snapshot: `7de8945`; later commits contain test ev
 - Public site: https://film-tv-atlas.vercel.app
 - Verified preview: https://film-tv-atlas-dgw4j1lur-nick-vyhouskis-projects.vercel.app
 - Preview deployment: `dpl_LhsyXzL9MioyjhLthbAAZTPTX6ko`
-- Production deployment: `dpl_4y2a8ecZY5ZZapLMWjhCFHdhtL3F`
-- Production build URL: https://film-tv-atlas-deqpg5g3e-nick-vyhouskis-projects.vercel.app
+- Original verified production deployment: `dpl_4y2a8ecZY5ZZapLMWjhCFHdhtL3F`
+- Original production build URL: https://film-tv-atlas-deqpg5g3e-nick-vyhouskis-projects.vercel.app
 - Vercel project: `film-tv-atlas`, in Nick Vyhouski's projects.
 
 Vercel automatically assigned the first project upload to production despite the requested preview target. The final corrected upload was a preview, passed hosted checks, and was then promoted. Promotion created the production deployment listed above; the public alias was confirmed against that deployment before accepting the final suite.
@@ -42,6 +42,7 @@ Runtime: Node 24.21.0. Next.js 16.3.5, React 19.3.0, Fumadocs UI/Core 16.15.12, 
 | Final local browser suite | 42 passed |
 | Protected hosted preview | 42 passed, plus 2 body/guide search journeys |
 | Public production browser suite | 44 passed, signed out |
+| Git-triggered production browser suite | 44 passed, signed out; deployment and public alias matched commit `c5df2bc` |
 
 The independent whole-branch reviewer found a slow-filter race and an inert no-JavaScript clear control. Both were reproduced with failing tests and fixed; the suite passed afterward. Rendered inspection then caught a narrow mobile 404 layout; its width regression failed before the fix and passed afterward. No review findings remain deferred.
 
@@ -57,6 +58,6 @@ Saved screenshots are in [site-evidence](site-evidence/). They document rendered
 2. The existing pilot's generation receipts are an allowlisted download because the completed source page links them. They contain generation identifiers and provider filenames.
 3. Client-only A–Z filters update Next-supported native browser history to avoid stale network responses overwriting typing. Revisit this choice if filtering later requires server data.
 
-After explicit user approval on 2026-09-20, the reviewed code through `87480f7` was pushed to GitHub `weeeha/Film-TV-Vocabulary` with a normal non-force push. The Vercel project API confirms the GitHub connection, production branch `main`, Next.js framework, and Node 24 runtime. A subsequent documentation push exercises the automatic publishing path; its deployment and hosted checks will be recorded here after completion.
+After explicit user approval on 2026-09-20, the reviewed code through `87480f7` was pushed to GitHub `weeeha/Film-TV-Vocabulary` with a normal non-force push. The Vercel project API confirms the GitHub connection, production branch `main`, Next.js framework, and Node 24 runtime. Pushing documentation commit `c5df2bc778204aa9c4c660d59c96ad2a06c8c12c` automatically created production deployment `dpl_CCU5KvrzeWcgZGeFEzXWjcWwbZWM`, at https://film-tv-atlas-9hp92xpqn-nick-vyhouskis-projects.vercel.app. Vercel reports source `git`, branch `main`, and status `READY`. The public alias resolved to that deployment. All 44 desktop and phone browser tests then passed in 43.6 seconds without authentication. Later release-record-only commits retain the same application snapshot; GitHub-driven publishing is verified.
 
 The main workspace also passed a fresh `npm ci`, all 11 unit tests without prior generated site state, content validation, and type checking after the local fast-forward merge.

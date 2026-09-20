@@ -1,7 +1,8 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { parseFilters, filterTerms, groupTerms } from "../../lib/terms";
-import { atlas } from "../../lib/atlas";
+import { prepareAtlas } from "../../lib/content/prepare";
+const atlas = await prepareAtlas(process.cwd());
 test("filters preserve the first value and recover invalid chapters", () => {
   assert.deepEqual(
     parseFilters(new URLSearchParams("q=light&chapter=missing"), [

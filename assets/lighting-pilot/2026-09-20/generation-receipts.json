@@ -1,0 +1,54 @@
+{
+  "generation_method": "built-in image generation",
+  "generation_calls": 12,
+  "outputs": [
+    {
+      "id": "01-key-light",
+      "provider_output_filename": "exec-1c313509-abe9-4ca2-a351-c4ff3b0383b6.png"
+    },
+    {
+      "id": "02-fill-light",
+      "provider_output_filename": "exec-88560f6b-3ca5-4ecd-80ec-2325b138dd5a.png"
+    },
+    {
+      "id": "03-backlight",
+      "provider_output_filename": "exec-668aadda-b300-41c0-9c43-bfbf61dd851a.png"
+    },
+    {
+      "id": "04-rim-light",
+      "provider_output_filename": "exec-dbfb4289-ae84-4c38-935e-21a2d20dbf0d.png"
+    },
+    {
+      "id": "05-hard-light",
+      "provider_output_filename": "exec-a84c3a15-782b-423a-bd21-4b8cbc5754cc.png"
+    },
+    {
+      "id": "06-soft-light",
+      "provider_output_filename": "exec-be7fe584-90ac-4a89-abf6-9f11bc5b5462.png"
+    },
+    {
+      "id": "07-side-light",
+      "provider_output_filename": "exec-11d879a3-f729-4ada-a45d-db9595becaad.png"
+    },
+    {
+      "id": "08-top-light",
+      "provider_output_filename": "exec-56a51310-5f6e-499c-8476-e775953fbc11.png"
+    },
+    {
+      "id": "09-underlighting",
+      "provider_output_filename": "exec-d8b5be78-e75e-4138-b237-da49b28a0c47.png"
+    },
+    {
+      "id": "10-high-key-lighting",
+      "provider_output_filename": "exec-c7ff0937-1b26-417a-8f61-3ded5e57ca5f.png"
+    },
+    {
+      "id": "11-low-key-lighting",
+      "provider_output_filename": "exec-a3000fd4-e518-45b2-97fd-774791d29f2c.png"
+    },
+    {
+      "id": "12-silhouette",
+      "provider_output_filename": "exec-74fd065a-26ca-44e8-b926-3cc07bda2736.png"
+    }
+  ]
+}

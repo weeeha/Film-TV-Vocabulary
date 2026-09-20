@@ -6,6 +6,8 @@ Lighting describes how illumination reaches people, objects, and spaces. Color d
 
 Roles, quality, direction, approach, and controls are compatible dimensions. A soft side key can be motivated by a window, supplemented by negative fill, and captured for a restrained color grade. The examples below are hypothetical; warm light does not guarantee comfort, nor does darkness guarantee fear.
 
+**Illustrated pilot:** [Compare 12 lighting treatments on a neutral bust](../docs/pilots/lighting-2026-09-20.md). The generated candidates demonstrate visible differences, with captions explaining where roles, directions, and effects overlap.
+
 ## Light roles
 
 ### Key light

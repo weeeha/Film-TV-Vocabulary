@@ -1,0 +1,119 @@
+{
+  "pilot_id": "lighting-2026-09-20",
+  "status": "candidate",
+  "generation_method": "built-in image generation",
+  "requested_image_count": 12,
+  "brief": "One fixed neutral bust and sphere; vary lighting to teach 12 concepts.",
+  "notes": [
+    "Requested square 1024-pixel illustrations; actual provider output dimensions are recorded separately.",
+    "Prompts and reference relationships are explicit. These are generated interpretations, not calibrated lighting simulations."
+  ],
+  "jobs": [
+    {
+      "id": "01-key-light",
+      "term_id": "lighting-and-color.key-light",
+      "title": "Key light",
+      "prompt": "Create ONE polished educational lighting-study image for a film vocabulary wiki, not a collage. Square 1024x1024 composition. This first study demonstrates KEY LIGHT and establishes a reusable subject for eleven later controlled relighting studies.\n\nSubject and scene: a single smooth matte light-gray plaster head-and-shoulders sculpture of an adult androgynous person, hairless with simplified but realistic nose, eyelids, lips and ears. A quiet, neutral expression. A clearly inanimate sculpture, no skin texture, no clothing or jewelry. Its head faces straight toward camera, neither tilted nor turned. Entire head, both shoulders and the top of a plain cylindrical pedestal are visible. A small matte gray sphere rests on the same flat tabletop, to the viewer's right of the pedestal, with clear space between them. Neutral mid-gray seamless studio wall and tabletop. Exact frontal eye-level camera, centered balanced composition, medium-close framing, ordinary perspective, crisp detail across bust and sphere. The sculpture occupies about 65 percent of image height. No props other than pedestal and sphere.\n\nLighting lesson: one dominant neutral-white key light from viewer-left, about 45 degrees to the camera and 25 degrees above the face, medium apparent source size. It clearly models nose, cheek and neck. The viewer-left side is lit; the viewer-right side is in readable shadow. Very faint environmental fill only, no rim light, no backlight, no decorative color. Visible coherent cast shadows on the tabletop go away from the key. The background stays mid-gray. Neutral color balance. Preserve realistic shadow behavior. This should feel like a clean cinematography textbook render, attractive and materially convincing, not dramatic fantasy art.\n\nNo written words, numbers, labels, diagrams, arrows, visible fixtures, borders, watermark, or split panels. Show the actual result of the lighting, leaving titles to the webpage.",
+      "reference_ids": []
+    },
+    {
+      "id": "02-fill-light",
+      "term_id": "lighting-and-color.fill-light",
+      "title": "Fill light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Retain the original viewer-left key direction, its lit cheek and highlights. Add a broad low-intensity neutral fill from near the camera on viewer-right to raise the shadows on the right eye, cheek and neck. The lit side must not become substantially brighter. Make the shadow side clearly more readable and the facial contrast noticeably lower than in the reference, without erasing the key's direction. No added rim or background light. Keep the tabletop shadows softer and visible, not multiple hard crossed shadows.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "03-backlight",
+      "term_id": "lighting-and-color.backlight",
+      "title": "Backlight",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Demonstrate a source behind the subject relative to camera. Replace the dominant front key with a broad neutral-white elevated source behind the bust and slightly toward viewer-left. It lights the upper and rear-facing parts of the head and shoulders, producing clearly visible back separation around the crown and both shoulders, with stronger light on the viewer-left contour. A very low broad frontal fill makes the facial features faintly readable but does not dominate. Keep the mid-dark gray background behind the bust; the source is NOT aimed at or illuminating a halo on the background. Do not turn the image into a pure silhouette.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "04-rim-light",
+      "term_id": "lighting-and-color.rim-light",
+      "title": "Rim light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Demonstrate a narrow edge highlight: a small controlled source from behind and to viewer-right makes a thin bright line trace the right side of the head, ear and shoulder, and a fine edge on the sphere. The rest of the front has faint neutral ambient light, enough to identify the same form, but remains much darker than the edge. Avoid a broad illuminated cheek, a symmetrical halo, or a glowing outline painted around the whole object. Keep background dark gray so the thin partial rim reads clearly. The rim is caused by realistic grazing illumination.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "05-hard-light",
+      "term_id": "lighting-and-color.hard-light",
+      "title": "Hard light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Retain the original key direction at 45 degrees viewer-left and 25 degrees above the face. Make its apparent source size very small. Show crisp, well-defined cast-shadow edges from nose onto cheek, under the chin and on the tabletop from the sphere and pedestal. Keep the lit plaster at a readable mid-light gray, not blown white. Keep faint ambient fill and the same neutral background level; do not demonstrate hardness merely by making the whole image brighter or increasing global contrast. It is the narrow shadow transition that must be unmistakable.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "06-soft-light",
+      "term_id": "lighting-and-color.soft-light",
+      "title": "Soft light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Retain the original key direction at 45 degrees viewer-left and 25 degrees above the face. Use a very large nearby luminous source so all cast-shadow transitions broaden substantially: nose-to-cheek, under the chin, and sphere-to-table. Keep similar overall brightness and exposure to the reference and hard-light comparison. Preserve a visible lit side and shaded side: soft does NOT mean shadowless or featureless. No rim or back light. The apparent light source is large; the render and sculpture details should stay sharply focused, NOT blurred.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "07-side-light",
+      "term_id": "lighting-and-color.side",
+      "title": "Side light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Place the dominant medium-small source exactly to viewer-left, approximately 90 degrees around from the camera axis and near head height. Show strong left/right facial modeling: left side illuminated, right side mostly in readable deep shadow; the nose divides the illumination. Cast shadows extend to viewer-right across the tabletop. Very faint ambient fill only; no overhead key, front fill, rim, or bright background halo. Keep the same pose and mid-gray environment. This is a geometric direction comparison, not a mood color treatment.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "08-top-light",
+      "term_id": "lighting-and-color.top",
+      "title": "Top light",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Put the dominant source directly above the bust and sphere, centered overhead. Show bright crown, upper nose and shoulders; clear downward shadows under the brows, nose and chin. The eye sockets should be relatively darker while facial identity remains legible. Sphere shadow falls immediately below it, with slight softness from a moderately sized source. Use low neutral ambient fill only, no strong lateral or rear source. Keep background mid-gray and the same camera and geometry.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "09-underlighting",
+      "term_id": "lighting-and-color.underlighting",
+      "title": "Underlighting",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Put the dominant hidden source below chin height near the camera axis, aimed upward. Clearly illuminate undersides of chin, nose and brows, with unusual upward-cast nose and facial shadows; crown and top-facing shoulders should be comparatively darker. Source remains out of frame and may sit in front of the table edge. The tabletop and sphere must respond coherently to this low front illumination. Keep the exact neutral sculpture, no horror expression, no red color, no dramatic fog, no distortion. A direction lesson, not a horror costume.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "10-high-key-lighting",
+      "term_id": "lighting-and-color.high-key-lighting",
+      "title": "High-key lighting",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Create a bright, low-contrast studio treatment with a large neutral key and substantial broad fill. Raise background and tabletop illumination to a pale gray, nearly white but not clipped. Most face and neck planes should remain readily visible, with few deep shadows; preserve subtle modeling and clear material texture. The same gray plaster looks brightly lit rather than changed into another material. Keep the sculpture's contour readable against the background and retain a faint contact shadow. No overexposure, no pure-white featureless face, no glowing halo.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "11-low-key-lighting",
+      "term_id": "lighting-and-color.low-key-lighting",
+      "title": "Low-key lighting",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Create selective illumination with substantial dark areas. A controlled viewer-left key illuminates one cheek, forehead edge, nose plane and a small part of the shoulder; most of the face's far side, environment and tabletop recede into deep charcoal. Minimize fill while retaining a little meaningful detail on the dark side. The bright plane is properly exposed and materially readable, not globally dimmed. Keep the sphere faintly legible with a small lit area from the same source. No added luminous objects, no colored gels, no smoke. Exact subject and framing stay unchanged.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    },
+    {
+      "id": "12-silhouette",
+      "term_id": "lighting-and-color.silhouette",
+      "title": "Silhouette",
+      "prompt": "Relight the supplied image to create ONE educational film-lighting illustration, not a collage. Preserve EXACTLY the same sculpture identity and geometry, pose, pedestal, sphere position, tabletop, camera, framing, material, and square aspect ratio. The neutral matte light-gray plaster bust remains straight-on and inanimate. Change only lighting, shadow patterns, and the background illumination expressly requested below. Keep a neutral-white light color balance, with no stylized colored gels. Preserve the physical plausibility of nose shadows, under-chin shadows, sphere shadows, and cast shadows. No words, numbers, labels, arrows, light-fixture diagrams, additional props, split panels, borders, or watermark. Aim for a polished but restrained textbook studio rendering. The webpage will provide labels. \nLighting lesson: Illuminate the BACKGROUND to pale bright gray behind the bust and sphere, while keeping their camera-facing surfaces unlit. Make the bust a clean near-black shape with its outer head, ears, neck and shoulders recognizable, but almost no internal facial detail. The sphere also reads as a dark circular shape. Preserve exact framing, positions and geometry. A very thin natural boundary transition is acceptable, but no prominent glowing rim or front eye/nose detail. This is dark subject against bright background, not a black backdrop.",
+      "reference_ids": [
+        "01-key-light"
+      ]
+    }
+  ]
+}

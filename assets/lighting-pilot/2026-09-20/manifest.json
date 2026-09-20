@@ -1,0 +1,366 @@
+{
+  "schema_version": "1.0",
+  "pilot_id": "lighting-2026-09-20",
+  "created_on": "2026-09-20",
+  "status": "candidate",
+  "generation_method": "built-in image generation",
+  "generation_calls": 12,
+  "rerolls": 0,
+  "asset_count": 12,
+  "reference_strategy": "Each of the eleven relights references 01-key-light directly.",
+  "limits": [
+    "Generated teaching interpretations, not calibrated lighting simulations.",
+    "Actual output dimensions are recorded per asset; requested 1024-pixel output was not enforced by the provider.",
+    "Visual review is separate from file-integrity verification; user selection remains open."
+  ],
+  "review_summary": {
+    "pass": 9,
+    "pass_with_caveat": 3,
+    "revise": 0
+  },
+  "assets": [
+    {
+      "id": "01-key-light",
+      "term_id": "lighting-and-color.key-light",
+      "title": "Key light",
+      "file": "assets/lighting-pilot/2026-09-20/01-key-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1701956,
+      "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "01-key-light",
+      "prompt_sha256": "3345225e6806d3634d2f8b04da3444d9405c824311a0336f84fb3970d655564a",
+      "provider_output_filename": "exec-1c313509-abe9-4ca2-a351-c4ff3b0383b6.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Dominant upper-left illumination models the face; sphere and pedestal shadows support the direction. Baseline shadow transitions are moderately soft.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": []
+    },
+    {
+      "id": "02-fill-light",
+      "term_id": "lighting-and-color.fill-light",
+      "title": "Fill light",
+      "file": "assets/lighting-pilot/2026-09-20/02-fill-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1582025,
+      "sha256": "6c1809403c583d657b2a95cbd5427ea90753fb84b80a11668745c282f52a485e",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "02-fill-light",
+      "prompt_sha256": "72e1ef89bc2490017bf5653d51fac6d6010bb71a4ec647788979bb0a4d66aea7",
+      "provider_output_filename": "exec-88560f6b-3ca5-4ecd-80ec-2325b138dd5a.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Viewer-right cheek, eye socket, neck, and sphere shadows brighten while the upper-left key remains apparent.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "03-backlight",
+      "term_id": "lighting-and-color.backlight",
+      "title": "Backlight",
+      "file": "assets/lighting-pilot/2026-09-20/03-backlight.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1651841,
+      "sha256": "d1ea6ec0401fcdc78f87a4892ada6eccd334def655863a4aaf77ef7d1891fbe0",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "03-backlight",
+      "prompt_sha256": "f25ae966586057ab655ca0ac25742b5c28591cd69baf9fe54d914aa56db46b03",
+      "provider_output_filename": "exec-668aadda-b300-41c0-9c43-bfbf61dd851a.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass_with_caveat",
+        "note": "Head, ear, and shoulder highlights show a rear contribution. Existing front illumination remains visible, so this is backlight added to front lighting, not an isolated backlight-only setup.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "04-rim-light",
+      "term_id": "lighting-and-color.rim-light",
+      "title": "Rim light",
+      "file": "assets/lighting-pilot/2026-09-20/04-rim-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1573181,
+      "sha256": "a8392670e1e2089ba6090164a75ce2b7e5e12bdbe9239393170020d74e13a383",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "04-rim-light",
+      "prompt_sha256": "381f062d40dd266eaf85e86a48a678c422ac791f558e6ca6b3f4fc12a2a7c2be",
+      "provider_output_filename": "exec-dbfb4289-ae84-4c38-935e-21a2d20dbf0d.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "A narrow viewer-right highlight traces the head, neck, shoulder, and sphere, clearly teaching an edge effect.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "05-hard-light",
+      "term_id": "lighting-and-color.hard-light",
+      "title": "Hard light",
+      "file": "assets/lighting-pilot/2026-09-20/05-hard-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1663617,
+      "sha256": "0f35510ea89ba52c910a0ba4d40f274eb911e1e65e7bea37f5518f01ba2fd542",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "05-hard-light",
+      "prompt_sha256": "a355fc14b7178a1f35a06c0896346e00746ef72af6820a7729e6ee970918929c",
+      "provider_output_filename": "exec-a84c3a15-782b-423a-bd21-4b8cbc5754cc.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Neck, shoulder, and tabletop cast-shadow boundaries are clearly defined and tighter than in the soft-light illustration.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "06-soft-light",
+      "term_id": "lighting-and-color.soft-light",
+      "title": "Soft light",
+      "file": "assets/lighting-pilot/2026-09-20/06-soft-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1542144,
+      "sha256": "11dcd56fa61af490c8a055547e00c0f3622c25463e73c5cf23db5a63d2d7067e",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "06-soft-light",
+      "prompt_sha256": "e72db4a549b80e91a71153f83f296b2d440e963ce4deab6b900856ba9bddccc2",
+      "provider_output_filename": "exec-be7fe584-90ac-4a89-abf6-9f11bc5b5462.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass_with_caveat",
+        "note": "Neck and cheek transitions broaden and tabletop shadows diffuse. Shadow and background brightness also increase; compare edge width rather than treating this as a source-size-only experiment.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "07-side-light",
+      "term_id": "lighting-and-color.side",
+      "title": "Side light",
+      "file": "assets/lighting-pilot/2026-09-20/07-side-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1600182,
+      "sha256": "81d14996d1660e442fb9d9d7595e5716c10f03f1d2fa070324d308b8085da138",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "07-side-light",
+      "prompt_sha256": "eaf286ce18e7872fc9f8aa71c96dba0b235c08df60824e1854aec6dbe1ebc290",
+      "provider_output_filename": "exec-11d879a3-f729-4ada-a45d-db9595becaad.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Viewer-left illumination leaves most of the viewer-right face and neck dark. Teaches lateral direction without verifying an exact source angle.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "08-top-light",
+      "term_id": "lighting-and-color.top",
+      "title": "Top light",
+      "file": "assets/lighting-pilot/2026-09-20/08-top-light.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1616947,
+      "sha256": "0c6e23fb070f0438f33aa4154ad821844b519c6e128bf33f27793cbe628819c2",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "08-top-light",
+      "prompt_sha256": "287d946bc15b0fbf813f6aeea39056b2b24a9e6690e487e30f583f238086604e",
+      "provider_output_filename": "exec-56a51310-5f6e-499c-8476-e775953fbc11.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Bright crown and upper shoulders, bilateral brow shadows, downward nose shadow, and shaded neck establish illumination from above.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "09-underlighting",
+      "term_id": "lighting-and-color.underlighting",
+      "title": "Underlighting",
+      "file": "assets/lighting-pilot/2026-09-20/09-underlighting.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1619197,
+      "sha256": "4f66951621cb24b054bad0039b0a5dfd67d04a3793818f0a000a82abc0fdb8dd",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "09-underlighting",
+      "prompt_sha256": "814c5fd6ed9bf5718b9d1fc9334a65cab0105471bf48cb29cd8ccba67a9305cd",
+      "provider_output_filename": "exec-d8b5be78-e75e-4138-b237-da49b28a0c47.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Bright chin, nostril undersides, lower face, and neck contrast with a dark crown; upward facial shadows establish illumination from below.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "10-high-key-lighting",
+      "term_id": "lighting-and-color.high-key-lighting",
+      "title": "High-key lighting",
+      "file": "assets/lighting-pilot/2026-09-20/10-high-key-lighting.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1621827,
+      "sha256": "b74d655f0a292f12b2ba6e878ff5641f488f728c7831fe7ed5c62741f00e2eb6",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "10-high-key-lighting",
+      "prompt_sha256": "41a327223228e4f14fe6cebd29daf613ffe1f66f09b2d3ab4771684bcfbfee1e",
+      "provider_output_filename": "exec-c7ff0937-1b26-417a-8f61-3ded5e57ca5f.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Bright background and surfaces, lifted shadows, and preserved texture and facial modeling establish the treatment.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "11-low-key-lighting",
+      "term_id": "lighting-and-color.low-key-lighting",
+      "title": "Low-key lighting",
+      "file": "assets/lighting-pilot/2026-09-20/11-low-key-lighting.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1585988,
+      "sha256": "da9daa57be5ed000582b3d6a8a93e496942ec90a39ffcf08c7937d7397040b5a",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "11-low-key-lighting",
+      "prompt_sha256": "4b925109ecf8925d0c74b895ad720986c312748f5ff0c16f37a0ccc0b9351c38",
+      "provider_output_filename": "exec-a3000fd4-e518-45b2-97fd-774791d29f2c.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass",
+        "note": "Selective viewer-left illumination remains strong while the opposite face and background fall into substantial darkness.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    },
+    {
+      "id": "12-silhouette",
+      "term_id": "lighting-and-color.silhouette",
+      "title": "Silhouette",
+      "file": "assets/lighting-pilot/2026-09-20/12-silhouette.png",
+      "mime_type": "image/png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1425579,
+      "sha256": "3df3eb0ca3e93415ffb08ff136889c92b04d08a7c3cfd88978423b5409971374",
+      "status": "candidate",
+      "user_selected": null,
+      "prompt_file": "assets/lighting-pilot/2026-09-20/prompts.json",
+      "prompt_job_id": "12-silhouette",
+      "prompt_sha256": "866548f3ae609322d35c2a8e27f232560fa8760c13d09857ea9b3effbd3279ac",
+      "provider_output_filename": "exec-74fd065a-26ca-44e8-b926-3cc07bda2736.png",
+      "visual_review": {
+        "reviewer": "assistant with independent cinematography review",
+        "result": "pass_with_caveat",
+        "note": "Dark bust and sphere read primarily through their outlines against the bright background. Faint facial and chest detail remains; this is not a featureless cutout.",
+        "continuity": "Subject, camera framing, pedestal, sphere placement, and material appear consistent; not a pixel-identical or calibrated scene."
+      },
+      "references": [
+        {
+          "id": "01-key-light",
+          "sha256": "ed77f312b33fd864e5fe7afc7629c90343a10075d9bb1c3c310364a51f259fd8"
+        }
+      ]
+    }
+  ]
+}

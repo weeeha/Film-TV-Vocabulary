@@ -6,6 +6,8 @@ Project repository: [weeeha/Film-TV-Vocabulary](https://github.com/weeeha/Film-T
 
 **Start with the [alphabetical index](INDEX.md), the [reading guide](guides/how-to-use.md), or the [worked discovery scene](examples/discovery-scene.md).**
 
+**Illustration pilot:** [Compare 12 lighting treatments](docs/pilots/lighting-2026-09-20.md) on one neutral subject, with captions and agent-readable asset records.
+
 This first written edition expands all 22 areas of the original outline. Each term has a definition, practical use, and original hypothetical example. Chapters add important distinctions, related topics, sources, and proposed visual interactions with corresponding data fields. The [coverage report](docs/coverage.md) gives current counts.
 
 ## Story, structure, and characters
@@ -66,7 +68,7 @@ The taxonomy is editorial and expandable. It does not claim that all cinema foll
 
 ## What this edition contains
 
-This is a written Markdown wiki and a structured vocabulary export. Visual interactions are described as design proposals; there is no interactive application or generation backend in this repository. The examples are written teaching examples, not bundled film clips, audio demonstrations, or finished storyboards.
+This is a written Markdown wiki and a structured vocabulary export, with an initial set of 12 generated lighting illustrations. The illustrations are candidates for the visual vocabulary, not calibrated lighting simulations. Visual interactions are described as design proposals; there is no interactive application or generation backend in this repository. Film clips, audio demonstrations, and finished storyboards are not bundled.
 
 Technical and theoretical source checks appear in each chapter. Those checks support specific distinctions; they do not turn the entire taxonomy into an industry standard or prove that a creative choice will produce a particular audience response.
 

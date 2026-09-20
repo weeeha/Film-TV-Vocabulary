@@ -281,6 +281,9 @@ html {
   min-width: 32rem;
 }
 .not-found {
+  grid-area: main;
+  width: 100%;
+  min-width: 0;
   max-width: 45rem;
   margin: 12vh auto;
   padding: 2rem;

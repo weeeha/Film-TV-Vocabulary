@@ -45,6 +45,7 @@ test("initial index and filtering work without JavaScript", async ({
 }) => {
   const context = await browser.newContext({
     javaScriptEnabled: false,
+    storageState: process.env.ATLAS_STORAGE_STATE,
     baseURL,
   });
   const page = await context.newPage();
@@ -77,6 +78,7 @@ test("a slow earlier filter update cannot erase newer typing", async ({
 test("clear filters works without JavaScript", async ({ browser, baseURL }) => {
   const context = await browser.newContext({
     javaScriptEnabled: false,
+    storageState: process.env.ATLAS_STORAGE_STATE,
     baseURL,
   });
   const page = await context.newPage();

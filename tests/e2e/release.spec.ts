@@ -74,3 +74,13 @@ test("keyboard skip, theme and related chapter navigation work", async ({
     .click();
   await expect(page.locator("html")).toHaveClass(/dark/);
 });
+
+test("the missing-page message uses the available reading width", async ({
+  page,
+}) => {
+  await page.goto("/missing-page");
+  const width = await page
+    .locator("main")
+    .evaluate((el) => el.getBoundingClientRect().width);
+  expect(width).toBeGreaterThan(Math.min(page.viewportSize()!.width - 40, 500));
+});

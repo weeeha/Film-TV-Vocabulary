@@ -39,6 +39,7 @@ test("reading remains usable without JavaScript", async ({
 }) => {
   const context = await browser.newContext({
     javaScriptEnabled: false,
+    storageState: process.env.ATLAS_STORAGE_STATE,
     baseURL,
   });
   const page = await context.newPage();

@@ -5,6 +5,7 @@ export default defineConfig({
   retries: 0,
   workers: 2,
   use: {
+    storageState: process.env.ATLAS_STORAGE_STATE,
     baseURL: process.env.ATLAS_BASE_URL || "http://127.0.0.1:3210",
     trace: "retain-on-failure",
     channel: "chrome",

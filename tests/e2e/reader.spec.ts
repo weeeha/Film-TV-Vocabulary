@@ -24,3 +24,7 @@ test('reading remains usable without JavaScript',async({browser,baseURL})=>{
  await expect(page.locator('main a[href="/wiki/shot-size-angle-and-composition"]').first()).toBeAttached();
  await context.close();
 });
+
+test('chapter navigation opens the vocabulary index',async({page,isMobile})=>{
+ await page.goto('/wiki/lighting-and-color');if(isMobile)await page.getByRole('button',{name:'Open Sidebar'}).click();await page.getByRole('link',{name:'Alphabetical index',exact:true}).filter({visible:true}).first().click();await expect(page).toHaveURL(/\/terms/);await expect(page.getByLabel('Filter terms')).toBeVisible();
+});

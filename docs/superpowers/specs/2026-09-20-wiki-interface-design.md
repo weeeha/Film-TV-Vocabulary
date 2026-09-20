@@ -1,7 +1,7 @@
 # Creative Vocabulary wiki interface
 
 Date: 2026-09-20
-Status: Approved and implemented on 2026-09-20. The reader is published and verified; automatic GitHub deployment connection awaits explicit approval after an automatic-review block.
+Status: Approved and implemented on 2026-09-20. The reader is published and verified. GitHub is connected to Vercel with `main` as the production branch; the first automatic deployment is being verified.
 
 ## Purpose and proposed baseline
 
@@ -128,7 +128,7 @@ For subsequent updates: edit source content, regenerate the catalog, run content
 - [x] Write the implementation plan using the Superpowers writing-plans skill: [implementation plan](../plans/2026-09-20-wiki-interface.md).
 - [x] User review of the written plan and selection of Native execution.
 - [x] Implement, verify locally, publish, and verify the hosted site.
-- [ ] Connect GitHub for automatic deployments (explicit approval pending).
+- [x] Connect GitHub for automatic deployments (explicitly approved; `main` connection verified).
 
 ## References
 

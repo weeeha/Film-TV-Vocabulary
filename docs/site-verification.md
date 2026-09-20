@@ -51,12 +51,12 @@ Inspected home, chapter, A–Z, guide, lighting, 404, and search loading/results
 
 Saved screenshots are in [site-evidence](site-evidence/). They document rendered states; interaction and route checks above are separate evidence.
 
-## Decisions and remaining integration
+## Decisions and repository integration
 
 1. Mermaid 11.17.2 replaces the planned version 12 dependency chain to remove high-severity dependency findings. Compatibility was checked by rendering the actual guide and invalid fallback.
 2. The existing pilot's generation receipts are an allowlisted download because the completed source page links them. They contain generation identifiers and provider filenames.
 3. Client-only A–Z filters update Next-supported native browser history to avoid stale network responses overwriting typing. Revisit this choice if filtering later requires server data.
 
-Automatic approval review rejected connecting Vercel to `weeeha/Film-TV-Vocabulary`, citing persistent repository access and future deployments. Automatic review also rejected pushing the reviewed local `main` branch to GitHub, citing persistent remote repository mutation. Explicit user approval for both actions is pending. The reviewed code is integrated into local `main`; remote GitHub remains at the earlier content snapshot. Manual publishing works; automatic repository-driven publishing is not claimed.
+After explicit user approval on 2026-09-20, the reviewed code through `87480f7` was pushed to GitHub `weeeha/Film-TV-Vocabulary` with a normal non-force push. The Vercel project API confirms the GitHub connection, production branch `main`, Next.js framework, and Node 24 runtime. A subsequent documentation push exercises the automatic publishing path; its deployment and hosted checks will be recorded here after completion.
 
 The main workspace also passed a fresh `npm ci`, all 11 unit tests without prior generated site state, content validation, and type checking after the local fast-forward merge.

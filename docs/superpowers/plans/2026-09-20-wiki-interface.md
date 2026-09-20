@@ -10,7 +10,7 @@
 
 **Spec:** [Approved wiki design](../specs/2026-09-20-wiki-interface-design.md). Read both documents before execution.
 
-**Status:** Plan proposed for user review. Product code and dependencies have not been added. Recommended execution method: **Native**, because the six tasks share one content contract and most work is deterministic content presentation. Implement sequentially in this session, followed by the independent review required by the executing-plans skill. User selection of execution method is pending.
+**Status:** Approved and implemented on 2026-09-20 using Native execution, followed by independent review and verified fixes. The reader is published, and GitHub is connected to Vercel. See [release verification](../../site-verification.md) for actual checks and publishing evidence. The steps below retain the implementation instructions used during the work.
 
 ## Global Constraints
 

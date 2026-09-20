@@ -187,9 +187,16 @@ def render(chapters, entries, seeds):
     }
 
 
+def authored_markdown_paths(root):
+    paths = [root / 'README.md', root / 'INDEX.md', root / 'docs/coverage.md', root / 'docs/initial-outline.md']
+    for folder in ('wiki', 'guides', 'examples', 'docs/pilots'):
+        paths.extend((root / folder).rglob('*.md'))
+    return sorted(p for p in paths if p.is_file())
+
+
 def check_links():
     errors = []
-    for path in ROOT.rglob("*.md"):
+    for path in authored_markdown_paths(ROOT):
         if any(part.startswith(".") for part in path.relative_to(ROOT).parts):
             continue
         text = unfenced(path.read_text())

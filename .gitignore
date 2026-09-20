@@ -3,3 +3,14 @@ __pycache__/
 *.py[cod]
 .venv/
 .worktrees/
+node_modules/
+.next/
+.source/
+.generated/
+.superpowers/
+public/generated/
+test-results/
+playwright-report/
+.vercel/
+*.tsbuildinfo
+.env*

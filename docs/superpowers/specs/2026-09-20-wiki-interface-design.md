@@ -1,7 +1,7 @@
 # Creative Vocabulary wiki interface
 
 Date: 2026-09-20
-Status: Proposed design for user review; implementation has not started.
+Status: Approved by the user on 2026-09-20. The implementation plan is written and awaiting review; product implementation has not started.
 
 ## Purpose and proposed baseline
 
@@ -20,8 +20,9 @@ Success means a working deployed reference, with accurate navigation and search 
 - `scripts/build_catalog.py` generates the catalog, alphabetical index, coverage report, and seed mapping. Preserve that authoring workflow.
 - Chapters also contain distinctions, proposed controls, related chapters, and sources. Preserve the distinction between written proposals and implemented features.
 - Guides and a worked discovery scene are part of the reading experience.
-- Existing uncommitted changes include README and lighting-chapter edits, an illustration page, and image assets. Preserve that work and recheck it before integration.
+- At original inspection, uncommitted changes included README and lighting-chapter edits, an illustration page, and image assets. That work is now committed as `d3f5ba0`; preserve it and recheck for newer changes before integration.
 - At inspection, the content checker found stale catalog/coverage outputs and eight missing lighting images plus a missing manifest. These are baseline findings, not failures caused by the new application. The pilot is changing, so recheck its actual state before implementation and publication.
+- Planning refresh: all 12 images and the manifest are now present, and the existing content checker passes for 22 chapters and 643 entries. Include the pilot in the implementation baseline, retaining the publication checks below.
 
 ## Foundation and alternatives
 
@@ -123,8 +124,8 @@ For subsequent updates: edit source content, regenerate the catalog, run content
 - [x] Inspect repository, content model, local changes, and existing validation.
 - [x] Compare open-source foundations and document the proposed experience.
 - [x] Draft and self-review this design.
-- [ ] User review of the written design, including the editing assumption.
-- [ ] Write the implementation plan using the Superpowers writing-plans skill.
+- [x] User review of the written design, including the editing assumption.
+- [x] Write the implementation plan using the Superpowers writing-plans skill: [implementation plan](../plans/2026-09-20-wiki-interface.md).
 - [ ] User review of the written plan and selection of execution method.
 - [ ] Implement, verify locally, publish, and verify the hosted site.
 

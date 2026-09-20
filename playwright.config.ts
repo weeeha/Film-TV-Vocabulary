@@ -1,2 +1,33 @@
-import {defineConfig,devices} from '@playwright/test';
-export default defineConfig({testDir:'./tests/e2e',timeout:30000,retries:0,workers:2,use:{baseURL:process.env.ATLAS_BASE_URL||'http://127.0.0.1:3210',trace:'retain-on-failure',channel:'chrome'},projects:[{name:'desktop',use:{viewport:{width:1440,height:1000}}},{name:'phone',use:{viewport:{width:390,height:844},isMobile:true,hasTouch:true}}],webServer:process.env.ATLAS_BASE_URL?undefined:{command:process.env.ATLAS_DEV_SERVER?'npm run dev -- --hostname 127.0.0.1 --port 3210':'npm run start -- --hostname 127.0.0.1 --port 3210',url:'http://127.0.0.1:3210',reuseExistingServer:!process.env.CI,timeout:120000}});
+import { defineConfig, devices } from "@playwright/test";
+export default defineConfig({
+  testDir: "./tests/e2e",
+  timeout: 30000,
+  retries: 0,
+  workers: 2,
+  use: {
+    baseURL: process.env.ATLAS_BASE_URL || "http://127.0.0.1:3210",
+    trace: "retain-on-failure",
+    channel: "chrome",
+  },
+  projects: [
+    { name: "desktop", use: { viewport: { width: 1440, height: 1000 } } },
+    {
+      name: "phone",
+      use: {
+        viewport: { width: 390, height: 844 },
+        isMobile: true,
+        hasTouch: true,
+      },
+    },
+  ],
+  webServer: process.env.ATLAS_BASE_URL
+    ? undefined
+    : {
+        command: process.env.ATLAS_DEV_SERVER
+          ? "npm run dev -- --hostname 127.0.0.1 --port 3210"
+          : "npm run start -- --hostname 127.0.0.1 --port 3210",
+        url: "http://127.0.0.1:3210",
+        reuseExistingServer: !process.env.CI,
+        timeout: 120000,
+      },
+});

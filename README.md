@@ -68,7 +68,7 @@ The taxonomy is editorial and expandable. It does not claim that all cinema foll
 
 ## What this edition contains
 
-This is a written Markdown wiki and a structured vocabulary export, with an initial set of 12 generated lighting illustrations. The illustrations are candidates for the visual vocabulary, not calibrated lighting simulations. Visual interactions are described as design proposals; there is no interactive application or generation backend in this repository. Film clips, audio demonstrations, and finished storyboards are not bundled.
+This repository contains a searchable Next.js/Fumadocs wiki, the source Markdown, a structured vocabulary export, and 12 generated lighting illustrations. The illustrations are candidates for the visual vocabulary, not calibrated lighting simulations. The reader includes chapter navigation, search, an A–Z index, and a lighting comparison gallery. Simulators and creative generation controls described in chapters remain design proposals; no generation backend is included. Film clips, audio demonstrations, and finished storyboards are not bundled.
 
 Technical and theoretical source checks appear in each chapter. Those checks support specific distinctions; they do not turn the entire taxonomy into an industry standard or prove that a creative choice will produce a particular audience response.
 
@@ -82,3 +82,9 @@ python3 scripts/build_catalog.py --check
 ```
 
 The builder refreshes the alphabetical index, catalog, and coverage report from the same content. The checker verifies entry fields, IDs, local links, generated-file consistency, and the worked example's references. A schema validator can additionally check each decision against `data/decision.schema.json`.
+
+## Website development
+
+Use Node 24. Run `npm ci`, then `npm run dev` for the local reader. Restart after Markdown edits. Before publishing, regenerate editorial outputs with `npm run content:build` and run `npm run content:check`, `npm run test:unit`, `npm run typecheck`, `npm run build`, and `npm run test:e2e`.
+
+See [site maintenance](docs/site-maintenance.md) for the authoring workflow.

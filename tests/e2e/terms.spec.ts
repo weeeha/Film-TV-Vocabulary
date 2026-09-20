@@ -1,4 +1,6 @@
 import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+const atlas = JSON.parse(readFileSync(".generated/atlas.json", "utf8"));
 test("shared filters and Back restore the same result set", async ({
   page,
 }) => {
@@ -25,13 +27,17 @@ test("typing, invalid chapters and no results behave consistently", async ({
 }) => {
   await page.goto("/terms?chapter=unknown");
   await expect(page.getByLabel("Chapter", { exact: true })).toHaveValue("");
-  await expect(page.getByRole("status")).toContainText("643 terms");
+  await expect(page.getByRole("status")).toContainText(
+    `${atlas.terms.length} terms`,
+  );
   await page.getByLabel("Filter terms").fill("zzzxunknown");
   await expect(page).toHaveURL(/q=zzzxunknown/);
   await expect(page.getByRole("status")).toHaveText("0 terms");
   await expect(page.getByText("No matching terms.")).toBeVisible();
   await page.getByRole("button", { name: "Clear filters" }).click();
-  await expect(page.getByRole("status")).toContainText("643 terms");
+  await expect(page.getByRole("status")).toContainText(
+    `${atlas.terms.length} terms`,
+  );
 });
 test("initial index and filtering work without JavaScript", async ({
   browser,

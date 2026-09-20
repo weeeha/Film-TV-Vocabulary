@@ -1,0 +1,16 @@
+.git
+.worktrees
+.superpowers
+.next
+node_modules
+.source
+.generated
+.atlas-preparation
+public/generated
+tests
+playwright-report
+test-results
+docs/superpowers
+docs/site-evidence
+.env*
+*.tsbuildinfo

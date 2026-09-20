@@ -1,0 +1,3156 @@
+{
+  "source": "docs/initial-outline.md",
+  "mapped_label_count": 630,
+  "mappings": [
+    {
+      "chapter_number": 1,
+      "outline_label": "fiction",
+      "entry_id": "form-format-and-genre.fiction"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "documentary",
+      "entry_id": "form-format-and-genre.documentary"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "experimental film",
+      "entry_id": "form-format-and-genre.experimental-film"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "hybrid documentary-fiction",
+      "entry_id": "form-format-and-genre.hybrid-documentary-fiction"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "live action",
+      "entry_id": "form-format-and-genre.live-action"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "animation",
+      "entry_id": "form-format-and-genre.animation"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "mixed media",
+      "entry_id": "form-format-and-genre.mixed-media"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "feature",
+      "entry_id": "form-format-and-genre.feature"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "short",
+      "entry_id": "form-format-and-genre.short"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "television episode",
+      "entry_id": "form-format-and-genre.television-episode"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "limited series",
+      "entry_id": "form-format-and-genre.limited-series"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "continuing series",
+      "entry_id": "form-format-and-genre.continuing-series"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "anthology series",
+      "entry_id": "form-format-and-genre.anthology-series"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "drama",
+      "entry_id": "form-format-and-genre.drama"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "comedy",
+      "entry_id": "form-format-and-genre.comedy"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "thriller",
+      "entry_id": "form-format-and-genre.thriller"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "horror",
+      "entry_id": "form-format-and-genre.horror"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "science fiction",
+      "entry_id": "form-format-and-genre.science-fiction"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "fantasy",
+      "entry_id": "form-format-and-genre.fantasy"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "romance",
+      "entry_id": "form-format-and-genre.romance"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "mystery",
+      "entry_id": "form-format-and-genre.mystery"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "crime",
+      "entry_id": "form-format-and-genre.crime"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "action",
+      "entry_id": "form-format-and-genre.action"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "adventure",
+      "entry_id": "form-format-and-genre.adventure"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "western",
+      "entry_id": "form-format-and-genre.western"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "musical",
+      "entry_id": "form-format-and-genre.musical"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "historical film",
+      "entry_id": "form-format-and-genre.historical-film"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "romantic comedy",
+      "entry_id": "form-format-and-genre.romantic-comedy"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "science-fiction horror",
+      "entry_id": "form-format-and-genre.science-fiction-horror"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "crime thriller",
+      "entry_id": "form-format-and-genre.crime-thriller"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "tragicomedy",
+      "entry_id": "form-format-and-genre.tragicomedy"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "sincere",
+      "entry_id": "form-format-and-genre.sincere"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "ironic",
+      "entry_id": "form-format-and-genre.ironic"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "satirical",
+      "entry_id": "form-format-and-genre.satirical"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "tragic",
+      "entry_id": "form-format-and-genre.tragic"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "playful",
+      "entry_id": "form-format-and-genre.playful"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "contemplative",
+      "entry_id": "form-format-and-genre.contemplative"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "absurd",
+      "entry_id": "form-format-and-genre.absurd"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "ominous",
+      "entry_id": "form-format-and-genre.ominous"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "hopeful",
+      "entry_id": "form-format-and-genre.hopeful"
+    },
+    {
+      "chapter_number": 1,
+      "outline_label": "melancholic",
+      "entry_id": "form-format-and-genre.melancholic"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "Premise",
+      "entry_id": "premise-theme-and-meaning.premise"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "logline",
+      "entry_id": "premise-theme-and-meaning.logline"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "central dramatic question",
+      "entry_id": "premise-theme-and-meaning.central-dramatic-question"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "theme",
+      "entry_id": "premise-theme-and-meaning.theme"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "thematic argument",
+      "entry_id": "premise-theme-and-meaning.thematic-argument"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "counterargument",
+      "entry_id": "premise-theme-and-meaning.counterargument"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "Motif",
+      "entry_id": "premise-theme-and-meaning.motif"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "symbol",
+      "entry_id": "premise-theme-and-meaning.symbol"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "allegory",
+      "entry_id": "premise-theme-and-meaning.allegory"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "metaphor",
+      "entry_id": "premise-theme-and-meaning.metaphor"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "irony",
+      "entry_id": "premise-theme-and-meaning.irony"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "ambiguity",
+      "entry_id": "premise-theme-and-meaning.ambiguity"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "Belonging",
+      "entry_id": "premise-theme-and-meaning.belonging"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "identity",
+      "entry_id": "premise-theme-and-meaning.identity"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "power",
+      "entry_id": "premise-theme-and-meaning.power"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "responsibility",
+      "entry_id": "premise-theme-and-meaning.responsibility"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "grief",
+      "entry_id": "premise-theme-and-meaning.grief"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "memory",
+      "entry_id": "premise-theme-and-meaning.memory"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "survival",
+      "entry_id": "premise-theme-and-meaning.survival"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "justice",
+      "entry_id": "premise-theme-and-meaning.justice"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "freedom",
+      "entry_id": "premise-theme-and-meaning.freedom"
+    },
+    {
+      "chapter_number": 2,
+      "outline_label": "sacrifice",
+      "entry_id": "premise-theme-and-meaning.sacrifice"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "Quest",
+      "entry_id": "story-patterns-and-dramatic-engines.quest"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "pursuit",
+      "entry_id": "story-patterns-and-dramatic-engines.pursuit"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "escape",
+      "entry_id": "story-patterns-and-dramatic-engines.escape"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "rescue",
+      "entry_id": "story-patterns-and-dramatic-engines.rescue"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "investigation",
+      "entry_id": "story-patterns-and-dramatic-engines.investigation"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "revenge",
+      "entry_id": "story-patterns-and-dramatic-engines.revenge"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "survival",
+      "entry_id": "story-patterns-and-dramatic-engines.survival"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "transformation",
+      "entry_id": "story-patterns-and-dramatic-engines.transformation"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "coming of age",
+      "entry_id": "story-patterns-and-dramatic-engines.coming-of-age"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "rise and fall",
+      "entry_id": "story-patterns-and-dramatic-engines.rise-and-fall"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "homecoming",
+      "entry_id": "story-patterns-and-dramatic-engines.homecoming"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "Internal conflict",
+      "entry_id": "story-patterns-and-dramatic-engines.internal-conflict"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "interpersonal conflict",
+      "entry_id": "story-patterns-and-dramatic-engines.interpersonal-conflict"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "institutional conflict",
+      "entry_id": "story-patterns-and-dramatic-engines.institutional-conflict"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "environmental conflict",
+      "entry_id": "story-patterns-and-dramatic-engines.environmental-conflict"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "Goal",
+      "entry_id": "story-patterns-and-dramatic-engines.goal"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "obstacle",
+      "entry_id": "story-patterns-and-dramatic-engines.obstacle"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "stakes",
+      "entry_id": "story-patterns-and-dramatic-engines.stakes"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "deadline",
+      "entry_id": "story-patterns-and-dramatic-engines.deadline"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "dilemma",
+      "entry_id": "story-patterns-and-dramatic-engines.dilemma"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "escalation",
+      "entry_id": "story-patterns-and-dramatic-engines.escalation"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "reversal",
+      "entry_id": "story-patterns-and-dramatic-engines.reversal"
+    },
+    {
+      "chapter_number": 3,
+      "outline_label": "consequence",
+      "entry_id": "story-patterns-and-dramatic-engines.consequence"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "Three-act structure",
+      "entry_id": "narrative-structure-and-time.three-act-structure"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "five-act structure",
+      "entry_id": "narrative-structure-and-time.five-act-structure"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "episodic structure",
+      "entry_id": "narrative-structure-and-time.episodic-structure"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "circular structure",
+      "entry_id": "narrative-structure-and-time.circular-structure"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "braided narrative",
+      "entry_id": "narrative-structure-and-time.braided-narrative"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "frame narrative",
+      "entry_id": "narrative-structure-and-time.frame-narrative"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "Linear chronology",
+      "entry_id": "narrative-structure-and-time.linear-chronology"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "nonlinear chronology",
+      "entry_id": "narrative-structure-and-time.nonlinear-chronology"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "parallel timelines",
+      "entry_id": "narrative-structure-and-time.parallel-timelines"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "reverse chronology",
+      "entry_id": "narrative-structure-and-time.reverse-chronology"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "real time",
+      "entry_id": "narrative-structure-and-time.real-time"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "Setup",
+      "entry_id": "narrative-structure-and-time.setup"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "inciting incident",
+      "entry_id": "narrative-structure-and-time.inciting-incident"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "turning point",
+      "entry_id": "narrative-structure-and-time.turning-point"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "midpoint",
+      "entry_id": "narrative-structure-and-time.midpoint"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "crisis",
+      "entry_id": "narrative-structure-and-time.crisis"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "climax",
+      "entry_id": "narrative-structure-and-time.climax"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "resolution",
+      "entry_id": "narrative-structure-and-time.resolution"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "denouement",
+      "entry_id": "narrative-structure-and-time.denouement"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "Beat",
+      "entry_id": "narrative-structure-and-time.beat"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "scene",
+      "entry_id": "narrative-structure-and-time.scene"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "sequence",
+      "entry_id": "narrative-structure-and-time.sequence"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "act",
+      "entry_id": "narrative-structure-and-time.act"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "subplot",
+      "entry_id": "narrative-structure-and-time.subplot"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "Flashback",
+      "entry_id": "narrative-structure-and-time.flashback"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "flashforward",
+      "entry_id": "narrative-structure-and-time.flashforward"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "ellipsis",
+      "entry_id": "narrative-structure-and-time.ellipsis"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "repetition",
+      "entry_id": "narrative-structure-and-time.repetition"
+    },
+    {
+      "chapter_number": 4,
+      "outline_label": "time loop",
+      "entry_id": "narrative-structure-and-time.time-loop"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "Episodic storytelling",
+      "entry_id": "television-storytelling.episodic-storytelling"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "serialized storytelling",
+      "entry_id": "television-storytelling.serialized-storytelling"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "hybrid episodic-serialized storytelling",
+      "entry_id": "television-storytelling.hybrid-episodic-serialized-storytelling"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "Series engine",
+      "entry_id": "television-storytelling.series-engine"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "season arc",
+      "entry_id": "television-storytelling.season-arc"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "episode arc",
+      "entry_id": "television-storytelling.episode-arc"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "recurring character arc",
+      "entry_id": "television-storytelling.recurring-character-arc"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "A-story",
+      "entry_id": "television-storytelling.a-story"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "B-story",
+      "entry_id": "television-storytelling.b-story"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "C-story",
+      "entry_id": "television-storytelling.c-story"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "runner",
+      "entry_id": "television-storytelling.runner"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "Pilot",
+      "entry_id": "television-storytelling.pilot"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "cold open",
+      "entry_id": "television-storytelling.cold-open"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "teaser",
+      "entry_id": "television-storytelling.teaser"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "act break",
+      "entry_id": "television-storytelling.act-break"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "cliffhanger",
+      "entry_id": "television-storytelling.cliffhanger"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "tag",
+      "entry_id": "television-storytelling.tag"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "finale",
+      "entry_id": "television-storytelling.finale"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "Bottle episode",
+      "entry_id": "television-storytelling.bottle-episode"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "standalone episode",
+      "entry_id": "television-storytelling.standalone-episode"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "two-part episode",
+      "entry_id": "television-storytelling.two-part-episode"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "anthology episode",
+      "entry_id": "television-storytelling.anthology-episode"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "Procedural reset",
+      "entry_id": "television-storytelling.procedural-reset"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "accumulating consequences",
+      "entry_id": "television-storytelling.accumulating-consequences"
+    },
+    {
+      "chapter_number": 5,
+      "outline_label": "recurring conflict",
+      "entry_id": "television-storytelling.recurring-conflict"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "Protagonist",
+      "entry_id": "character-roles.protagonist"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "antagonist",
+      "entry_id": "character-roles.antagonist"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "deuteragonist",
+      "entry_id": "character-roles.deuteragonist"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "ensemble lead",
+      "entry_id": "character-roles.ensemble-lead"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "supporting character",
+      "entry_id": "character-roles.supporting-character"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "Foil",
+      "entry_id": "character-roles.foil"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "confidant",
+      "entry_id": "character-roles.confidant"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "ally",
+      "entry_id": "character-roles.ally"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "rival",
+      "entry_id": "character-roles.rival"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "love interest",
+      "entry_id": "character-roles.love-interest"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "narrator",
+      "entry_id": "character-roles.narrator"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "audience surrogate",
+      "entry_id": "character-roles.audience-surrogate"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "Catalyst",
+      "entry_id": "character-roles.catalyst"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "gatekeeper",
+      "entry_id": "character-roles.gatekeeper"
+    },
+    {
+      "chapter_number": 6,
+      "outline_label": "witness",
+      "entry_id": "character-roles.witness"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "mentor",
+      "entry_id": "character-archetypes-and-construction.mentor"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "trickster",
+      "entry_id": "character-archetypes-and-construction.trickster"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "guardian",
+      "entry_id": "character-archetypes-and-construction.guardian"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "rebel",
+      "entry_id": "character-archetypes-and-construction.rebel"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "caregiver",
+      "entry_id": "character-archetypes-and-construction.caregiver"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "explorer",
+      "entry_id": "character-archetypes-and-construction.explorer"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "ruler",
+      "entry_id": "character-archetypes-and-construction.ruler"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "outsider",
+      "entry_id": "character-archetypes-and-construction.outsider"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "innocent",
+      "entry_id": "character-archetypes-and-construction.innocent"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "sage",
+      "entry_id": "character-archetypes-and-construction.sage"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "antihero",
+      "entry_id": "character-archetypes-and-construction.antihero"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "tragic hero",
+      "entry_id": "character-archetypes-and-construction.tragic-hero"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "reluctant hero",
+      "entry_id": "character-archetypes-and-construction.reluctant-hero"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "unreliable narrator",
+      "entry_id": "character-archetypes-and-construction.unreliable-narrator"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "want",
+      "entry_id": "character-archetypes-and-construction.want"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "need",
+      "entry_id": "character-archetypes-and-construction.need"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "fear",
+      "entry_id": "character-archetypes-and-construction.fear"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "belief",
+      "entry_id": "character-archetypes-and-construction.belief"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "value",
+      "entry_id": "character-archetypes-and-construction.value"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "contradiction",
+      "entry_id": "character-archetypes-and-construction.contradiction"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "flaw",
+      "entry_id": "character-archetypes-and-construction.flaw"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "strength",
+      "entry_id": "character-archetypes-and-construction.strength"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "secret",
+      "entry_id": "character-archetypes-and-construction.secret"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "formative experience",
+      "entry_id": "character-archetypes-and-construction.formative-experience"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "initiative",
+      "entry_id": "character-archetypes-and-construction.initiative"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "choice",
+      "entry_id": "character-archetypes-and-construction.choice"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "resistance",
+      "entry_id": "character-archetypes-and-construction.resistance"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "complicity",
+      "entry_id": "character-archetypes-and-construction.complicity"
+    },
+    {
+      "chapter_number": 7,
+      "outline_label": "responsibility",
+      "entry_id": "character-archetypes-and-construction.responsibility"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "Growth arc",
+      "entry_id": "character-arcs-and-relationships.growth-arc"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "decline arc",
+      "entry_id": "character-arcs-and-relationships.decline-arc"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "steadfast arc",
+      "entry_id": "character-arcs-and-relationships.steadfast-arc"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "redemption",
+      "entry_id": "character-arcs-and-relationships.redemption"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "corruption",
+      "entry_id": "character-arcs-and-relationships.corruption"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "disillusionment",
+      "entry_id": "character-arcs-and-relationships.disillusionment"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "reconciliation",
+      "entry_id": "character-arcs-and-relationships.reconciliation"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "Mentor–student",
+      "entry_id": "character-arcs-and-relationships.mentorstudent"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "rivals",
+      "entry_id": "character-arcs-and-relationships.rivals"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "uneasy allies",
+      "entry_id": "character-arcs-and-relationships.uneasy-allies"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "adversaries",
+      "entry_id": "character-arcs-and-relationships.adversaries"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "family",
+      "entry_id": "character-arcs-and-relationships.family"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "found family",
+      "entry_id": "character-arcs-and-relationships.found-family"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "partners",
+      "entry_id": "character-arcs-and-relationships.partners"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "Trust",
+      "entry_id": "character-arcs-and-relationships.trust"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "dependency",
+      "entry_id": "character-arcs-and-relationships.dependency"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "loyalty",
+      "entry_id": "character-arcs-and-relationships.loyalty"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "jealousy",
+      "entry_id": "character-arcs-and-relationships.jealousy"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "intimacy",
+      "entry_id": "character-arcs-and-relationships.intimacy"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "alienation",
+      "entry_id": "character-arcs-and-relationships.alienation"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "betrayal",
+      "entry_id": "character-arcs-and-relationships.betrayal"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "power imbalance",
+      "entry_id": "character-arcs-and-relationships.power-imbalance"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "Relationship formation",
+      "entry_id": "character-arcs-and-relationships.relationship-formation"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "rupture",
+      "entry_id": "character-arcs-and-relationships.rupture"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "repair",
+      "entry_id": "character-arcs-and-relationships.repair"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "reversal",
+      "entry_id": "character-arcs-and-relationships.reversal"
+    },
+    {
+      "chapter_number": 8,
+      "outline_label": "separation",
+      "entry_id": "character-arcs-and-relationships.separation"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "Era",
+      "entry_id": "world-and-setting.era"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "geography",
+      "entry_id": "world-and-setting.geography"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "climate",
+      "entry_id": "world-and-setting.climate"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "ecology",
+      "entry_id": "world-and-setting.ecology"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "settlement",
+      "entry_id": "world-and-setting.settlement"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "architecture",
+      "entry_id": "world-and-setting.architecture"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "infrastructure",
+      "entry_id": "world-and-setting.infrastructure"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "Institutions",
+      "entry_id": "world-and-setting.institutions"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "class",
+      "entry_id": "world-and-setting.class"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "economy",
+      "entry_id": "world-and-setting.economy"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "customs",
+      "entry_id": "world-and-setting.customs"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "rituals",
+      "entry_id": "world-and-setting.rituals"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "language",
+      "entry_id": "world-and-setting.language"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "belief systems",
+      "entry_id": "world-and-setting.belief-systems"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "Technology",
+      "entry_id": "world-and-setting.technology"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "magic",
+      "entry_id": "world-and-setting.magic"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "world rules",
+      "entry_id": "world-and-setting.world-rules"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "limitations",
+      "entry_id": "world-and-setting.limitations"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "costs",
+      "entry_id": "world-and-setting.costs"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "taboos",
+      "entry_id": "world-and-setting.taboos"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "Public space",
+      "entry_id": "world-and-setting.public-space"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "private space",
+      "entry_id": "world-and-setting.private-space"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "domestic space",
+      "entry_id": "world-and-setting.domestic-space"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "workplace",
+      "entry_id": "world-and-setting.workplace"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "wilderness",
+      "entry_id": "world-and-setting.wilderness"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "frontier",
+      "entry_id": "world-and-setting.frontier"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "transit space",
+      "entry_id": "world-and-setting.transit-space"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "Interior",
+      "entry_id": "world-and-setting.interior"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "exterior",
+      "entry_id": "world-and-setting.exterior"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "day",
+      "entry_id": "world-and-setting.day"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "night",
+      "entry_id": "world-and-setting.night"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "dawn",
+      "entry_id": "world-and-setting.dawn"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "dusk",
+      "entry_id": "world-and-setting.dusk"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "weather",
+      "entry_id": "world-and-setting.weather"
+    },
+    {
+      "chapter_number": 9,
+      "outline_label": "season",
+      "entry_id": "world-and-setting.season"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "introduction",
+      "entry_id": "scenes-and-sequences.introduction"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "exposition",
+      "entry_id": "scenes-and-sequences.exposition"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "discovery",
+      "entry_id": "scenes-and-sequences.discovery"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "confrontation",
+      "entry_id": "scenes-and-sequences.confrontation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "negotiation",
+      "entry_id": "scenes-and-sequences.negotiation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "confession",
+      "entry_id": "scenes-and-sequences.confession"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "decision",
+      "entry_id": "scenes-and-sequences.decision"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "reversal",
+      "entry_id": "scenes-and-sequences.reversal"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "payoff",
+      "entry_id": "scenes-and-sequences.payoff"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "aftermath",
+      "entry_id": "scenes-and-sequences.aftermath"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "chase",
+      "entry_id": "scenes-and-sequences.chase"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "interrogation",
+      "entry_id": "scenes-and-sequences.interrogation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "meal",
+      "entry_id": "scenes-and-sequences.meal"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "journey",
+      "entry_id": "scenes-and-sequences.journey"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "battle",
+      "entry_id": "scenes-and-sequences.battle"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "escape",
+      "entry_id": "scenes-and-sequences.escape"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "reunion",
+      "entry_id": "scenes-and-sequences.reunion"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "farewell",
+      "entry_id": "scenes-and-sequences.farewell"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "ritual",
+      "entry_id": "scenes-and-sequences.ritual"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "reveal",
+      "entry_id": "scenes-and-sequences.reveal"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "concealment",
+      "entry_id": "scenes-and-sequences.concealment"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "misdirection",
+      "entry_id": "scenes-and-sequences.misdirection"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "dramatic irony",
+      "entry_id": "scenes-and-sequences.dramatic-irony"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "recognition",
+      "entry_id": "scenes-and-sequences.recognition"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "objective",
+      "entry_id": "scenes-and-sequences.objective"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "obstacle",
+      "entry_id": "scenes-and-sequences.obstacle"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "tactic",
+      "entry_id": "scenes-and-sequences.tactic"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "turning point",
+      "entry_id": "scenes-and-sequences.turning-point"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "changed situation",
+      "entry_id": "scenes-and-sequences.changed-situation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "preparation",
+      "entry_id": "scenes-and-sequences.preparation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "heist",
+      "entry_id": "scenes-and-sequences.heist"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "pursuit",
+      "entry_id": "scenes-and-sequences.pursuit"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "investigation",
+      "entry_id": "scenes-and-sequences.investigation"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "training",
+      "entry_id": "scenes-and-sequences.training"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "rescue",
+      "entry_id": "scenes-and-sequences.rescue"
+    },
+    {
+      "chapter_number": 10,
+      "outline_label": "siege",
+      "entry_id": "scenes-and-sequences.siege"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "Restricted narration",
+      "entry_id": "perspective-and-audience-experience.restricted-narration"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "unrestricted narration",
+      "entry_id": "perspective-and-audience-experience.unrestricted-narration"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "subjective narration",
+      "entry_id": "perspective-and-audience-experience.subjective-narration"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "objective presentation",
+      "entry_id": "perspective-and-audience-experience.objective-presentation"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "unreliable narration",
+      "entry_id": "perspective-and-audience-experience.unreliable-narration"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "Suspense",
+      "entry_id": "perspective-and-audience-experience.suspense"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "surprise",
+      "entry_id": "perspective-and-audience-experience.surprise"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "curiosity",
+      "entry_id": "perspective-and-audience-experience.curiosity"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "anticipation",
+      "entry_id": "perspective-and-audience-experience.anticipation"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "empathy",
+      "entry_id": "perspective-and-audience-experience.empathy"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "dread",
+      "entry_id": "perspective-and-audience-experience.dread"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "relief",
+      "entry_id": "perspective-and-audience-experience.relief"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "catharsis",
+      "entry_id": "perspective-and-audience-experience.catharsis"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "Identification",
+      "entry_id": "perspective-and-audience-experience.identification"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "emotional distance",
+      "entry_id": "perspective-and-audience-experience.emotional-distance"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "withheld information",
+      "entry_id": "perspective-and-audience-experience.withheld-information"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "dramatic irony",
+      "entry_id": "perspective-and-audience-experience.dramatic-irony"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "Point-of-view shot",
+      "entry_id": "perspective-and-audience-experience.point-of-view-shot"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "reaction shot",
+      "entry_id": "perspective-and-audience-experience.reaction-shot"
+    },
+    {
+      "chapter_number": 11,
+      "outline_label": "observational perspective",
+      "entry_id": "perspective-and-audience-experience.observational-perspective"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "Subtext",
+      "entry_id": "dialogue-performance-and-blocking.subtext"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "exposition",
+      "entry_id": "dialogue-performance-and-blocking.exposition"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "banter",
+      "entry_id": "dialogue-performance-and-blocking.banter"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "monologue",
+      "entry_id": "dialogue-performance-and-blocking.monologue"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "interruption",
+      "entry_id": "dialogue-performance-and-blocking.interruption"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "overlap",
+      "entry_id": "dialogue-performance-and-blocking.overlap"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "silence",
+      "entry_id": "dialogue-performance-and-blocking.silence"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "understatement",
+      "entry_id": "dialogue-performance-and-blocking.understatement"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "Naturalistic performance",
+      "entry_id": "dialogue-performance-and-blocking.naturalistic-performance"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "stylized performance",
+      "entry_id": "dialogue-performance-and-blocking.stylized-performance"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "restrained performance",
+      "entry_id": "dialogue-performance-and-blocking.restrained-performance"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "heightened performance",
+      "entry_id": "dialogue-performance-and-blocking.heightened-performance"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "deadpan",
+      "entry_id": "dialogue-performance-and-blocking.deadpan"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "Vocal rhythm",
+      "entry_id": "dialogue-performance-and-blocking.vocal-rhythm"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "pause",
+      "entry_id": "dialogue-performance-and-blocking.pause"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "breath",
+      "entry_id": "dialogue-performance-and-blocking.breath"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "volume",
+      "entry_id": "dialogue-performance-and-blocking.volume"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "gesture",
+      "entry_id": "dialogue-performance-and-blocking.gesture"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "posture",
+      "entry_id": "dialogue-performance-and-blocking.posture"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "eyeline",
+      "entry_id": "dialogue-performance-and-blocking.eyeline"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "Blocking",
+      "entry_id": "dialogue-performance-and-blocking.blocking"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "entrance",
+      "entry_id": "dialogue-performance-and-blocking.entrance"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "exit",
+      "entry_id": "dialogue-performance-and-blocking.exit"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "crossing",
+      "entry_id": "dialogue-performance-and-blocking.crossing"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "proximity",
+      "entry_id": "dialogue-performance-and-blocking.proximity"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "separation",
+      "entry_id": "dialogue-performance-and-blocking.separation"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "stillness",
+      "entry_id": "dialogue-performance-and-blocking.stillness"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "group arrangement",
+      "entry_id": "dialogue-performance-and-blocking.group-arrangement"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "Objective",
+      "entry_id": "dialogue-performance-and-blocking.objective"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "tactic",
+      "entry_id": "dialogue-performance-and-blocking.tactic"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "listening",
+      "entry_id": "dialogue-performance-and-blocking.listening"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "reaction",
+      "entry_id": "dialogue-performance-and-blocking.reaction"
+    },
+    {
+      "chapter_number": 12,
+      "outline_label": "status shift",
+      "entry_id": "dialogue-performance-and-blocking.status-shift"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "Set design",
+      "entry_id": "production-design-and-appearance.set-design"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "location dressing",
+      "entry_id": "production-design-and-appearance.location-dressing"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "props",
+      "entry_id": "production-design-and-appearance.props"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "hero prop",
+      "entry_id": "production-design-and-appearance.hero-prop"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "set dressing",
+      "entry_id": "production-design-and-appearance.set-dressing"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "practical fixture",
+      "entry_id": "production-design-and-appearance.practical-fixture"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "Costume",
+      "entry_id": "production-design-and-appearance.costume"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "makeup",
+      "entry_id": "production-design-and-appearance.makeup"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "hair",
+      "entry_id": "production-design-and-appearance.hair"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "prosthetics",
+      "entry_id": "production-design-and-appearance.prosthetics"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "silhouette",
+      "entry_id": "production-design-and-appearance.silhouette"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "material",
+      "entry_id": "production-design-and-appearance.material"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "texture",
+      "entry_id": "production-design-and-appearance.texture"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "patina",
+      "entry_id": "production-design-and-appearance.patina"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "wear",
+      "entry_id": "production-design-and-appearance.wear"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "Palette",
+      "entry_id": "production-design-and-appearance.palette"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "shape language",
+      "entry_id": "production-design-and-appearance.shape-language"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "scale",
+      "entry_id": "production-design-and-appearance.scale"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "density",
+      "entry_id": "production-design-and-appearance.density"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "repetition",
+      "entry_id": "production-design-and-appearance.repetition"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "visual hierarchy",
+      "entry_id": "production-design-and-appearance.visual-hierarchy"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "Period authenticity",
+      "entry_id": "production-design-and-appearance.period-authenticity"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "stylization",
+      "entry_id": "production-design-and-appearance.stylization"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "lived-in detail",
+      "entry_id": "production-design-and-appearance.lived-in-detail"
+    },
+    {
+      "chapter_number": 13,
+      "outline_label": "visual continuity",
+      "entry_id": "production-design-and-appearance.visual-continuity"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "extreme wide shot",
+      "entry_id": "shot-size-angle-and-composition.extreme-wide-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "wide shot",
+      "entry_id": "shot-size-angle-and-composition.wide-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "full shot",
+      "entry_id": "shot-size-angle-and-composition.full-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "medium long shot",
+      "entry_id": "shot-size-angle-and-composition.medium-long-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "medium shot",
+      "entry_id": "shot-size-angle-and-composition.medium-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "medium close-up",
+      "entry_id": "shot-size-angle-and-composition.medium-close-up"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "close-up",
+      "entry_id": "shot-size-angle-and-composition.close-up"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "extreme close-up",
+      "entry_id": "shot-size-angle-and-composition.extreme-close-up"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "eye level",
+      "entry_id": "shot-size-angle-and-composition.eye-level"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "high angle",
+      "entry_id": "shot-size-angle-and-composition.high-angle"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "low angle",
+      "entry_id": "shot-size-angle-and-composition.low-angle"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "overhead",
+      "entry_id": "shot-size-angle-and-composition.overhead"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "canted angle",
+      "entry_id": "shot-size-angle-and-composition.canted-angle"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "single",
+      "entry_id": "shot-size-angle-and-composition.single"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "two-shot",
+      "entry_id": "shot-size-angle-and-composition.two-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "group shot",
+      "entry_id": "shot-size-angle-and-composition.group-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "over-the-shoulder shot",
+      "entry_id": "shot-size-angle-and-composition.over-the-shoulder-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "establishing shot",
+      "entry_id": "shot-size-angle-and-composition.establishing-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "master shot",
+      "entry_id": "shot-size-angle-and-composition.master-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "insert",
+      "entry_id": "shot-size-angle-and-composition.insert"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "cutaway",
+      "entry_id": "shot-size-angle-and-composition.cutaway"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "reaction shot",
+      "entry_id": "shot-size-angle-and-composition.reaction-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "point-of-view shot",
+      "entry_id": "shot-size-angle-and-composition.point-of-view-shot"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "symmetry",
+      "entry_id": "shot-size-angle-and-composition.symmetry"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "asymmetry",
+      "entry_id": "shot-size-angle-and-composition.asymmetry"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "central framing",
+      "entry_id": "shot-size-angle-and-composition.central-framing"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "rule of thirds",
+      "entry_id": "shot-size-angle-and-composition.rule-of-thirds"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "negative space",
+      "entry_id": "shot-size-angle-and-composition.negative-space"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "headroom",
+      "entry_id": "shot-size-angle-and-composition.headroom"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "looking room",
+      "entry_id": "shot-size-angle-and-composition.looking-room"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "frame within a frame",
+      "entry_id": "shot-size-angle-and-composition.frame-within-a-frame"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "leading lines",
+      "entry_id": "shot-size-angle-and-composition.leading-lines"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "foreground layering",
+      "entry_id": "shot-size-angle-and-composition.foreground-layering"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "aspect ratio",
+      "entry_id": "shot-size-angle-and-composition.aspect-ratio"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "portrait frame",
+      "entry_id": "shot-size-angle-and-composition.portrait-frame"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "widescreen frame",
+      "entry_id": "shot-size-angle-and-composition.widescreen-frame"
+    },
+    {
+      "chapter_number": 14,
+      "outline_label": "split screen",
+      "entry_id": "shot-size-angle-and-composition.split-screen"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "Pan",
+      "entry_id": "camera-movement-and-support.pan"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "tilt",
+      "entry_id": "camera-movement-and-support.tilt"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "roll",
+      "entry_id": "camera-movement-and-support.roll"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "dolly in",
+      "entry_id": "camera-movement-and-support.dolly-in"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "dolly out",
+      "entry_id": "camera-movement-and-support.dolly-out"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "lateral tracking",
+      "entry_id": "camera-movement-and-support.lateral-tracking"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "pedestal up",
+      "entry_id": "camera-movement-and-support.pedestal-up"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "pedestal down",
+      "entry_id": "camera-movement-and-support.pedestal-down"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "crane movement",
+      "entry_id": "camera-movement-and-support.crane-movement"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "orbit",
+      "entry_id": "camera-movement-and-support.orbit"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "arc",
+      "entry_id": "camera-movement-and-support.arc"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "follow",
+      "entry_id": "camera-movement-and-support.follow"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "lead",
+      "entry_id": "camera-movement-and-support.lead"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "Locked-off camera",
+      "entry_id": "camera-movement-and-support.locked-off-camera"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "handheld camera",
+      "entry_id": "camera-movement-and-support.handheld-camera"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "shoulder rig",
+      "entry_id": "camera-movement-and-support.shoulder-rig"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "stabilized camera",
+      "entry_id": "camera-movement-and-support.stabilized-camera"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "gimbal",
+      "entry_id": "camera-movement-and-support.gimbal"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "Steadicam",
+      "entry_id": "camera-movement-and-support.steadicam"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "vehicle mount",
+      "entry_id": "camera-movement-and-support.vehicle-mount"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "aerial camera",
+      "entry_id": "camera-movement-and-support.aerial-camera"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "Motivated movement",
+      "entry_id": "camera-movement-and-support.motivated-movement"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "unmotivated movement",
+      "entry_id": "camera-movement-and-support.unmotivated-movement"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "reveal",
+      "entry_id": "camera-movement-and-support.reveal"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "reframing",
+      "entry_id": "camera-movement-and-support.reframing"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "whip pan",
+      "entry_id": "camera-movement-and-support.whip-pan"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "Path",
+      "entry_id": "camera-movement-and-support.path"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "direction",
+      "entry_id": "camera-movement-and-support.direction"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "travel distance",
+      "entry_id": "camera-movement-and-support.travel-distance"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "duration",
+      "entry_id": "camera-movement-and-support.duration"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "speed profile",
+      "entry_id": "camera-movement-and-support.speed-profile"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "acceleration",
+      "entry_id": "camera-movement-and-support.acceleration"
+    },
+    {
+      "chapter_number": 15,
+      "outline_label": "subject tracking",
+      "entry_id": "camera-movement-and-support.subject-tracking"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "Focal length",
+      "entry_id": "lens-focus-and-image-capture.focal-length"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "field of view",
+      "entry_id": "lens-focus-and-image-capture.field-of-view"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "wide-angle lens",
+      "entry_id": "lens-focus-and-image-capture.wide-angle-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "normal lens",
+      "entry_id": "lens-focus-and-image-capture.normal-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "telephoto lens",
+      "entry_id": "lens-focus-and-image-capture.telephoto-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "prime lens",
+      "entry_id": "lens-focus-and-image-capture.prime-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "zoom lens",
+      "entry_id": "lens-focus-and-image-capture.zoom-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "anamorphic lens",
+      "entry_id": "lens-focus-and-image-capture.anamorphic-lens"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "Aperture",
+      "entry_id": "lens-focus-and-image-capture.aperture"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "depth of field",
+      "entry_id": "lens-focus-and-image-capture.depth-of-field"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "shallow focus",
+      "entry_id": "lens-focus-and-image-capture.shallow-focus"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "deep focus",
+      "entry_id": "lens-focus-and-image-capture.deep-focus"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "rack focus",
+      "entry_id": "lens-focus-and-image-capture.rack-focus"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "focus distance",
+      "entry_id": "lens-focus-and-image-capture.focus-distance"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "Exposure",
+      "entry_id": "lens-focus-and-image-capture.exposure"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "frame rate",
+      "entry_id": "lens-focus-and-image-capture.frame-rate"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "shutter angle",
+      "entry_id": "lens-focus-and-image-capture.shutter-angle"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "motion blur",
+      "entry_id": "lens-focus-and-image-capture.motion-blur"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "slow motion",
+      "entry_id": "lens-focus-and-image-capture.slow-motion"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "time-lapse",
+      "entry_id": "lens-focus-and-image-capture.time-lapse"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "Sensor or film format",
+      "entry_id": "lens-focus-and-image-capture.sensor-or-film-format"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "grain",
+      "entry_id": "lens-focus-and-image-capture.grain"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "digital noise",
+      "entry_id": "lens-focus-and-image-capture.digital-noise"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "lens distortion",
+      "entry_id": "lens-focus-and-image-capture.lens-distortion"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "diffusion",
+      "entry_id": "lens-focus-and-image-capture.diffusion"
+    },
+    {
+      "chapter_number": 16,
+      "outline_label": "flare",
+      "entry_id": "lens-focus-and-image-capture.flare"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "key light",
+      "entry_id": "lighting-and-color.key-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "fill light",
+      "entry_id": "lighting-and-color.fill-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "backlight",
+      "entry_id": "lighting-and-color.backlight"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "rim light",
+      "entry_id": "lighting-and-color.rim-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "background light",
+      "entry_id": "lighting-and-color.background-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "hard light",
+      "entry_id": "lighting-and-color.hard-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "soft light",
+      "entry_id": "lighting-and-color.soft-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "diffused light",
+      "entry_id": "lighting-and-color.diffused-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "bounced light",
+      "entry_id": "lighting-and-color.bounced-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "frontal",
+      "entry_id": "lighting-and-color.frontal"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "side",
+      "entry_id": "lighting-and-color.side"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "back",
+      "entry_id": "lighting-and-color.back"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "top",
+      "entry_id": "lighting-and-color.top"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "underlighting",
+      "entry_id": "lighting-and-color.underlighting"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "high-key lighting",
+      "entry_id": "lighting-and-color.high-key-lighting"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "low-key lighting",
+      "entry_id": "lighting-and-color.low-key-lighting"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "silhouette",
+      "entry_id": "lighting-and-color.silhouette"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "motivated lighting",
+      "entry_id": "lighting-and-color.motivated-lighting"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "available light",
+      "entry_id": "lighting-and-color.available-light"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "practical lighting",
+      "entry_id": "lighting-and-color.practical-lighting"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "intensity",
+      "entry_id": "lighting-and-color.intensity"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "contrast",
+      "entry_id": "lighting-and-color.contrast"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "falloff",
+      "entry_id": "lighting-and-color.falloff"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "negative fill",
+      "entry_id": "lighting-and-color.negative-fill"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "flags",
+      "entry_id": "lighting-and-color.flags"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "diffusion",
+      "entry_id": "lighting-and-color.diffusion"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "color temperature",
+      "entry_id": "lighting-and-color.color-temperature"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "tint",
+      "entry_id": "lighting-and-color.tint"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "palette",
+      "entry_id": "lighting-and-color.palette"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "saturation",
+      "entry_id": "lighting-and-color.saturation"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "hue",
+      "entry_id": "lighting-and-color.hue"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "contrast",
+      "entry_id": "lighting-and-color.contrast"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "color separation",
+      "entry_id": "lighting-and-color.color-separation"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "color grade",
+      "entry_id": "lighting-and-color.color-grade"
+    },
+    {
+      "chapter_number": 17,
+      "outline_label": "monochrome",
+      "entry_id": "lighting-and-color.monochrome"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "Cut",
+      "entry_id": "editing-transitions-and-pace.cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "dissolve",
+      "entry_id": "editing-transitions-and-pace.dissolve"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "fade",
+      "entry_id": "editing-transitions-and-pace.fade"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "wipe",
+      "entry_id": "editing-transitions-and-pace.wipe"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "match cut",
+      "entry_id": "editing-transitions-and-pace.match-cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "jump cut",
+      "entry_id": "editing-transitions-and-pace.jump-cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "smash cut",
+      "entry_id": "editing-transitions-and-pace.smash-cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "Continuity editing",
+      "entry_id": "editing-transitions-and-pace.continuity-editing"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "discontinuity editing",
+      "entry_id": "editing-transitions-and-pace.discontinuity-editing"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "cross-cutting",
+      "entry_id": "editing-transitions-and-pace.cross-cutting"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "parallel editing",
+      "entry_id": "editing-transitions-and-pace.parallel-editing"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "montage",
+      "entry_id": "editing-transitions-and-pace.montage"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "Shot/reverse shot",
+      "entry_id": "editing-transitions-and-pace.shot-reverse-shot"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "eyeline match",
+      "entry_id": "editing-transitions-and-pace.eyeline-match"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "match on action",
+      "entry_id": "editing-transitions-and-pace.match-on-action"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "screen direction",
+      "entry_id": "editing-transitions-and-pace.screen-direction"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "180-degree rule",
+      "entry_id": "editing-transitions-and-pace.180-degree-rule"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "J-cut",
+      "entry_id": "editing-transitions-and-pace.j-cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "L-cut",
+      "entry_id": "editing-transitions-and-pace.l-cut"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "sound bridge",
+      "entry_id": "editing-transitions-and-pace.sound-bridge"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "insert",
+      "entry_id": "editing-transitions-and-pace.insert"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "cutaway",
+      "entry_id": "editing-transitions-and-pace.cutaway"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "Shot duration",
+      "entry_id": "editing-transitions-and-pace.shot-duration"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "cutting rate",
+      "entry_id": "editing-transitions-and-pace.cutting-rate"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "hold",
+      "entry_id": "editing-transitions-and-pace.hold"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "pause",
+      "entry_id": "editing-transitions-and-pace.pause"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "ellipsis",
+      "entry_id": "editing-transitions-and-pace.ellipsis"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "repetition",
+      "entry_id": "editing-transitions-and-pace.repetition"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "rhythmic pattern",
+      "entry_id": "editing-transitions-and-pace.rhythmic-pattern"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "Long take",
+      "entry_id": "editing-transitions-and-pace.long-take"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "sequence shot",
+      "entry_id": "editing-transitions-and-pace.sequence-shot"
+    },
+    {
+      "chapter_number": 18,
+      "outline_label": "accelerated montage",
+      "entry_id": "editing-transitions-and-pace.accelerated-montage"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Dialogue",
+      "entry_id": "sound-voice-and-music.dialogue"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "production sound",
+      "entry_id": "sound-voice-and-music.production-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "ADR",
+      "entry_id": "sound-voice-and-music.adr"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "voiceover",
+      "entry_id": "sound-voice-and-music.voiceover"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "narration",
+      "entry_id": "sound-voice-and-music.narration"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Foley",
+      "entry_id": "sound-voice-and-music.foley"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "sound effects",
+      "entry_id": "sound-voice-and-music.sound-effects"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "ambience",
+      "entry_id": "sound-voice-and-music.ambience"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "room tone",
+      "entry_id": "sound-voice-and-music.room-tone"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Diegetic sound",
+      "entry_id": "sound-voice-and-music.diegetic-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "nondiegetic sound",
+      "entry_id": "sound-voice-and-music.nondiegetic-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "on-screen sound",
+      "entry_id": "sound-voice-and-music.on-screen-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "off-screen sound",
+      "entry_id": "sound-voice-and-music.off-screen-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "subjective sound",
+      "entry_id": "sound-voice-and-music.subjective-sound"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Sound perspective",
+      "entry_id": "sound-voice-and-music.sound-perspective"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "dynamic range",
+      "entry_id": "sound-voice-and-music.dynamic-range"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "layering",
+      "entry_id": "sound-voice-and-music.layering"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "silence",
+      "entry_id": "sound-voice-and-music.silence"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "reverberation",
+      "entry_id": "sound-voice-and-music.reverberation"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "distortion",
+      "entry_id": "sound-voice-and-music.distortion"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "sound bridge",
+      "entry_id": "sound-voice-and-music.sound-bridge"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Score",
+      "entry_id": "sound-voice-and-music.score"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "source music",
+      "entry_id": "sound-voice-and-music.source-music"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "cue",
+      "entry_id": "sound-voice-and-music.cue"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "theme",
+      "entry_id": "sound-voice-and-music.theme"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "leitmotif",
+      "entry_id": "sound-voice-and-music.leitmotif"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "drone",
+      "entry_id": "sound-voice-and-music.drone"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "ostinato",
+      "entry_id": "sound-voice-and-music.ostinato"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "sting",
+      "entry_id": "sound-voice-and-music.sting"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "Tempo",
+      "entry_id": "sound-voice-and-music.tempo"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "rhythm",
+      "entry_id": "sound-voice-and-music.rhythm"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "timbre",
+      "entry_id": "sound-voice-and-music.timbre"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "instrumentation",
+      "entry_id": "sound-voice-and-music.instrumentation"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "dissonance",
+      "entry_id": "sound-voice-and-music.dissonance"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "consonance",
+      "entry_id": "sound-voice-and-music.consonance"
+    },
+    {
+      "chapter_number": 19,
+      "outline_label": "musical counterpoint",
+      "entry_id": "sound-voice-and-music.musical-counterpoint"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "2D animation",
+      "entry_id": "animation-effects-and-mixed-techniques.2d-animation"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "3D animation",
+      "entry_id": "animation-effects-and-mixed-techniques.3d-animation"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "stop motion",
+      "entry_id": "animation-effects-and-mixed-techniques.stop-motion"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "rotoscoping",
+      "entry_id": "animation-effects-and-mixed-techniques.rotoscoping"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "motion capture",
+      "entry_id": "animation-effects-and-mixed-techniques.motion-capture"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "Key pose",
+      "entry_id": "animation-effects-and-mixed-techniques.key-pose"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "timing",
+      "entry_id": "animation-effects-and-mixed-techniques.timing"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "spacing",
+      "entry_id": "animation-effects-and-mixed-techniques.spacing"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "anticipation",
+      "entry_id": "animation-effects-and-mixed-techniques.anticipation"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "follow-through",
+      "entry_id": "animation-effects-and-mixed-techniques.follow-through"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "squash and stretch",
+      "entry_id": "animation-effects-and-mixed-techniques.squash-and-stretch"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "Practical effects",
+      "entry_id": "animation-effects-and-mixed-techniques.practical-effects"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "miniatures",
+      "entry_id": "animation-effects-and-mixed-techniques.miniatures"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "animatronics",
+      "entry_id": "animation-effects-and-mixed-techniques.animatronics"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "compositing",
+      "entry_id": "animation-effects-and-mixed-techniques.compositing"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "matte painting",
+      "entry_id": "animation-effects-and-mixed-techniques.matte-painting"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "digital environment",
+      "entry_id": "animation-effects-and-mixed-techniques.digital-environment"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "motion tracking",
+      "entry_id": "animation-effects-and-mixed-techniques.motion-tracking"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "Stylization",
+      "entry_id": "animation-effects-and-mixed-techniques.stylization"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "integration",
+      "entry_id": "animation-effects-and-mixed-techniques.integration"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "continuity",
+      "entry_id": "animation-effects-and-mixed-techniques.continuity"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "interaction",
+      "entry_id": "animation-effects-and-mixed-techniques.interaction"
+    },
+    {
+      "chapter_number": 20,
+      "outline_label": "simulation",
+      "entry_id": "animation-effects-and-mixed-techniques.simulation"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "Observational",
+      "entry_id": "documentary-and-nonfiction.observational-scene"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "participatory",
+      "entry_id": "documentary-and-nonfiction.participatory-approach"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "expository",
+      "entry_id": "documentary-and-nonfiction.expository-approach"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "reflexive",
+      "entry_id": "documentary-and-nonfiction.reflexive-approach"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "poetic",
+      "entry_id": "documentary-and-nonfiction.poetic-approach"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "performative approaches",
+      "entry_id": "documentary-and-nonfiction.performative-approach"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "Interview",
+      "entry_id": "documentary-and-nonfiction.interview"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "direct address",
+      "entry_id": "documentary-and-nonfiction.direct-address"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "archival footage",
+      "entry_id": "documentary-and-nonfiction.archival-footage"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "observational scene",
+      "entry_id": "documentary-and-nonfiction.observational-scene"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "reconstruction",
+      "entry_id": "documentary-and-nonfiction.reconstruction"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "reenactment",
+      "entry_id": "documentary-and-nonfiction.reenactment"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "actuality",
+      "entry_id": "documentary-and-nonfiction.actuality"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "Narrator position",
+      "entry_id": "documentary-and-nonfiction.narrator-position"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "subject participation",
+      "entry_id": "documentary-and-nonfiction.subject-participation"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "evidence",
+      "entry_id": "documentary-and-nonfiction.evidence"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "attribution",
+      "entry_id": "documentary-and-nonfiction.attribution"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "uncertainty",
+      "entry_id": "documentary-and-nonfiction.uncertainty"
+    },
+    {
+      "chapter_number": 21,
+      "outline_label": "editorial framing",
+      "entry_id": "documentary-and-nonfiction.editorial-framing"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "Reference work",
+      "entry_id": "references-and-creative-constraints.reference-work"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "specific scene",
+      "entry_id": "references-and-creative-constraints.specific-scene"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "shot",
+      "entry_id": "references-and-creative-constraints.shot"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "timestamp",
+      "entry_id": "references-and-creative-constraints.timestamp"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "frame",
+      "entry_id": "references-and-creative-constraints.frame"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "sound cue",
+      "entry_id": "references-and-creative-constraints.sound-cue"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "excerpt",
+      "entry_id": "references-and-creative-constraints.excerpt"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "composition",
+      "entry_id": "references-and-creative-constraints.composition"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "movement",
+      "entry_id": "references-and-creative-constraints.movement"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "lighting",
+      "entry_id": "references-and-creative-constraints.lighting"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "palette",
+      "entry_id": "references-and-creative-constraints.palette"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "material",
+      "entry_id": "references-and-creative-constraints.material"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "performance",
+      "entry_id": "references-and-creative-constraints.performance"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "rhythm",
+      "entry_id": "references-and-creative-constraints.rhythm"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "sound",
+      "entry_id": "references-and-creative-constraints.sound"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "narrative function",
+      "entry_id": "references-and-creative-constraints.narrative-function"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "Reference intent",
+      "entry_id": "references-and-creative-constraints.reference-intent"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "adaptation note",
+      "entry_id": "references-and-creative-constraints.adaptation-note"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "similarity target",
+      "entry_id": "references-and-creative-constraints.similarity-target"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "exclusions",
+      "entry_id": "references-and-creative-constraints.exclusions"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "priority",
+      "entry_id": "references-and-creative-constraints.priority"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "candidate",
+      "entry_id": "references-and-creative-constraints.candidate"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "working",
+      "entry_id": "references-and-creative-constraints.working"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "established",
+      "entry_id": "references-and-creative-constraints.established"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "open question",
+      "entry_id": "references-and-creative-constraints.open-question"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "Constraint",
+      "entry_id": "references-and-creative-constraints.constraint"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "preference",
+      "entry_id": "references-and-creative-constraints.preference"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "approved exception",
+      "entry_id": "references-and-creative-constraints.approved-exception"
+    },
+    {
+      "chapter_number": 22,
+      "outline_label": "continuity requirement",
+      "entry_id": "references-and-creative-constraints.continuity-requirement"
+    }
+  ]
+}

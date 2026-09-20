@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "title": "The station is still occupied",
+  "example_status": "original_hypothetical_brief",
+  "entities": [
+    {"id": "scene_station_01", "kind": "scene", "description": "A mechanic finds evidence of recent occupation in an abandoned station."},
+    {"id": "character_mara", "kind": "character", "description": "Mara, a mechanic looking for a replacement controller."},
+    {"id": "shot_station_03", "kind": "shot", "scene_id": "scene_station_01", "description": "Mara notices steam rising from a cup beside the controller."}
+  ],
+  "reference_library": [
+    {
+      "id": "reference_restrained_approach",
+      "kind": "original_written_reference",
+      "description": "An imagined eight-second approach toward a listening person, with steady translation and no camera shake.",
+      "provenance": "Written for this example; no external clip or image is claimed.",
+      "asset_path": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "decision_scene_function",
+      "scope": {"kind": "scene", "entity_id": "scene_station_01"},
+      "dimension": "scene.function",
+      "term_ids": ["scenes-and-sequences.discovery"],
+      "parameters": {"state_before": "Mara assumes the station is empty.", "state_after": "Mara knows someone has been here recently, but not who."},
+      "intent": "Change the search from routine salvage into an uncertain encounter.",
+      "status": "working",
+      "references": []
+    },
+    {
+      "id": "decision_audience_access",
+      "scope": {"kind": "scene", "entity_id": "scene_station_01"},
+      "dimension": "narration.range",
+      "term_ids": ["perspective-and-audience-experience.restricted-narration"],
+      "parameters": {"perspective_character_id": "character_mara", "unknowns": ["occupant_identity", "occupant_location"]},
+      "intent": "Let the audience discover the new information alongside Mara.",
+      "status": "working",
+      "references": []
+    },
+    {
+      "id": "decision_camera_movement",
+      "scope": {"kind": "shot", "entity_id": "shot_station_03"},
+      "dimension": "camera.movement",
+      "term_ids": ["camera-movement-and-support.dolly-in"],
+      "parameters": {"target_entity_id": "character_mara", "duration_seconds": 8, "speed_profile": "constant", "travel_distance_meters": null, "path_coordinates": null, "coordinate_system": null},
+      "intent": "Gradually narrow attention as Mara stops working and listens.",
+      "status": "candidate",
+      "references": [
+        {"reference_id": "reference_restrained_approach", "dimensions": ["camera.movement"], "influence": "medium", "adaptation_note": "Adapt the steady approach; choose distance and framing for this location."}
+      ]
+    },
+    {
+      "id": "decision_framing",
+      "scope": {"kind": "shot", "entity_id": "shot_station_03"},
+      "dimension": "framing",
+      "term_ids": ["shot-size-angle-and-composition.medium-shot", "shot-size-angle-and-composition.eye-level"],
+      "parameters": {"start_framing": "Mara and the controller in a medium shot.", "end_framing": "A tighter view of Mara listening; exact crop undecided.", "composition_constraints": ["Keep the far doorway visible throughout the approach."], "focal_length_mm": null, "sensor_gate_mm": null},
+      "intent": "Keep the working context readable before emphasizing the response.",
+      "status": "candidate",
+      "references": []
+    },
+    {
+      "id": "decision_lighting",
+      "scope": {"kind": "shot", "entity_id": "shot_station_03"},
+      "dimension": "lighting.key",
+      "term_ids": ["lighting-and-color.soft-light"],
+      "parameters": {"motivating_source": "An overcast window beside the workbench.", "direction_note": "From Mara's left, with the camera position still to be established.", "illuminance_lux": null, "color_temperature_kelvin": null},
+      "intent": "Keep the practical work readable while allowing the far doorway to remain less prominent.",
+      "status": "candidate",
+      "references": []
+    },
+    {
+      "id": "decision_pace",
+      "scope": {"kind": "shot", "entity_id": "shot_station_03"},
+      "dimension": "pace",
+      "term_ids": ["editing-transitions-and-pace.shot-duration"],
+      "parameters": {"duration_seconds": 8, "performance_note": "Mara stops turning the tool before looking toward the doorway.", "cutting_note": "Keep this shot uninterrupted; the next shot is undecided."},
+      "intent": "Allow a visible pause between noticing the cup and searching for its owner.",
+      "status": "candidate",
+      "references": []
+    }
+  ],
+  "unresolved": ["Physical camera path and travel distance", "Exact lens and sensor gate", "Light levels", "Identity and position of the occupant", "Whether a later sound cue reveals the occupied space"],
+  "observations": []
+}

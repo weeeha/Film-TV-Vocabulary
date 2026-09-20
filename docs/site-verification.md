@@ -57,4 +57,6 @@ Saved screenshots are in [site-evidence](site-evidence/). They document rendered
 2. The existing pilot's generation receipts are an allowlisted download because the completed source page links them. They contain generation identifiers and provider filenames.
 3. Client-only A–Z filters update Next-supported native browser history to avoid stale network responses overwriting typing. Revisit this choice if filtering later requires server data.
 
-Automatic approval review rejected connecting Vercel to `weeeha/Film-TV-Vocabulary`, citing persistent repository access and future deployments. Explicit user approval is pending. Manual publishing works; automatic repository-driven publishing is not claimed.
+Automatic approval review rejected connecting Vercel to `weeeha/Film-TV-Vocabulary`, citing persistent repository access and future deployments. Automatic review also rejected pushing the reviewed local `main` branch to GitHub, citing persistent remote repository mutation. Explicit user approval for both actions is pending. The reviewed code is integrated into local `main`; remote GitHub remains at the earlier content snapshot. Manual publishing works; automatic repository-driven publishing is not claimed.
+
+The main workspace also passed a fresh `npm ci`, all 11 unit tests without prior generated site state, content validation, and type checking after the local fast-forward merge.

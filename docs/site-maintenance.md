@@ -13,6 +13,6 @@ Use Node 24 and Python 3 locally. Install the locked dependencies with `npm ci`.
 
 Vercel runs the Node-based content validator and builder, without requiring Python. Stale chapter hashes or broken published links fail the build. If the optional lighting pilot is incomplete, its page and promotion links are omitted; the chapter remains available.
 
-The approved workflow publishes a preview first, checks it, then promotes it to production. The public site is https://film-tv-atlas.vercel.app. See [release verification](site-verification.md) for deployment IDs and repository-connection status. Until that connection is approved, use `vercel deploy` for a preview, verify it, then `vercel promote <preview-url>` and verify production.
+The approved workflow publishes a preview first, checks it, then promotes it to production. The public site is https://film-tv-atlas.vercel.app. See [release verification](site-verification.md) for deployment IDs and repository-connection status. The reviewed code is saved in local `main`; pushing it to GitHub also awaits explicit approval. Until the connection is approved, use `vercel deploy` for a preview, verify it, then `vercel promote <preview-url>` and verify production.
 
 The atlas uses open-source Next.js, React, Fumadocs, Tailwind CSS, Mermaid, and their dependencies. Their license notices remain with the packages. Lighting images are generated candidates with provenance and caveats; simulators and generation tools described in the source are proposals.

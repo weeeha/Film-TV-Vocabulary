@@ -2,6 +2,10 @@
 
 A connected vocabulary for writing, directing, designing, filming, editing, and discussing a movie or television show. Browse by subject, look up a term, or combine entries into a creative brief that an agent can read and edit.
 
+![Film & TV Atlas home page with chapter navigation, search, and the lighting study card](docs/screenshots/overview.webp)
+
+**Live:** https://film-tv-atlas.vercel.app
+
 Project repository: [weeeha/Film-TV-Vocabulary](https://github.com/weeeha/Film-TV-Vocabulary).
 
 **Start with the [alphabetical index](INDEX.md), the [reading guide](guides/how-to-use.md), or the [worked discovery scene](examples/discovery-scene.md).**
@@ -9,6 +13,16 @@ Project repository: [weeeha/Film-TV-Vocabulary](https://github.com/weeeha/Film-T
 **Illustration pilot:** [Compare 12 lighting treatments](docs/pilots/lighting-2026-09-20.md) on one neutral subject, with captions and agent-readable asset records.
 
 This first written edition expands all 22 areas of the original outline. Each term has a definition, practical use, and original hypothetical example. Chapters add important distinctions, related topics, sources, and proposed visual interactions with corresponding data fields. The [coverage report](docs/coverage.md) gives current counts.
+
+## Screenshots
+
+![Alphabetical index with term filter, chapter filter, and letter navigation](docs/screenshots/a-z-index.webp)
+
+The A-Z index lists all 643 terms with their chapters and filters by text or chapter.
+
+![Lighting illustration pilot page showing the key light and fill light images](docs/screenshots/lighting-gallery.webp)
+
+The lighting pilot compares 12 generated illustrations of one neutral subject.
 
 ## Story, structure, and characters
 

@@ -1,5 +1,13 @@
 # Creative Vocabulary — Film & TV Atlas
 
+**Problem.** Writers, directors and designers describe a film or TV show with terms drawn from 22 areas of craft, and a term in one area is hard to connect to its neighbours in another. A creative brief built from them also has to be something an agent can read.
+
+**Idea.** A connected vocabulary: every term has a definition, a practical use and an example, chapters link related topics, and entries combine into a creative brief that an agent can read and edit.
+
+**Built.** 643 entries across 22 chapters, written as Markdown with a Python script that builds the index and checks links, and a Next.js and Fumadocs site with search, an A-Z index and 12 generated lighting illustrations. Live at https://film-tv-atlas.vercel.app. 21 commits on 3 days, Sep 20 to Oct 20, 2026.
+
+**Decision.** The site uses Next.js with Fumadocs. Nextra suits a conventional documentation site and Quartz suits a backlink graph, but Fumadocs fits the atlas's planned interactive visual examples.
+
 A connected vocabulary for writing, directing, designing, filming, editing, and discussing a movie or television show. Browse by subject, look up a term, or combine entries into a creative brief that an agent can read and edit.
 
 ![Film & TV Atlas home page with chapter navigation, search, and the lighting study card](docs/screenshots/overview.webp)
